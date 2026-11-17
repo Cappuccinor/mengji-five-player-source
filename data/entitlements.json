@@ -1,0 +1,1127 @@
+{
+  "status": "AUDITED_POLICY_WITH_IMPLEMENTATION_RUNTIME_PENDING",
+  "source": "scratch\\baseline\\war3map.j",
+  "source_sha256": "95e678ea586d153fc154d99fed0ae9718b382d86aee2b1b7a670194208950633",
+  "design_source": "docs/design.md: 五人系统与免费规则",
+  "scope": "26 literal HasMallItem tags;133 actual calls; no platform requests, code edits or game launch.",
+  "phase_contract": {
+    "Selecting": "No grants, passive income/growth or claims.",
+    "Starting": "Authorized uY/ux/u7 setup can create helpers/pets/courier, grant starterkits and apply configured VIP attributes exactly once/player/run. Do not gate this only onPlaying.",
+    "Playing": "Recurring gains and user claims require phasePlaying, active player/roster, proper mode and intended milestone/action identity."
+  },
+  "tags": {
+    "VIP0": {
+      "label": "烂铁祝福",
+      "effect": "ux/u7 one random I2[4] puzzle and one random C-grade active/passive skillbook; full-set component.",
+      "proposed_free_rule": "Explicit cumulative preset: one VIP0 source kit per run, keep real opening/skill RNG.",
+      "guards_and_growth": "Once/player/run during Starting; separate VIP0 C-book and BOOKC can deliberately each give one, record quantity.",
+      "sites": [
+        {
+          "line": 8324,
+          "function": "uY"
+        },
+        {
+          "line": 10127,
+          "function": "ux"
+        },
+        {
+          "line": 10636,
+          "function": "u7"
+        },
+        {
+          "line": 11846,
+          "function": "v1"
+        },
+        {
+          "line": 12219,
+          "function": "v8"
+        },
+        {
+          "line": 12634,
+          "function": "wK"
+        },
+        {
+          "line": 13197,
+          "function": "wW"
+        },
+        {
+          "line": 13376,
+          "function": "wZ"
+        }
+      ]
+    },
+    "VIP1": {
+      "label": "黄金祝福",
+      "effect": "uY reroll+2, monster cap+15, money efficiency+5%, XP+10%, drop+15%, R005; BQg/BRz double genuine clear points.",
+      "proposed_free_rule": "Explicit cumulative free preset, apply attributes once and use real reward triggers.",
+      "guards_and_growth": "Initialize once/player/run; remove cap contribution once on leave; settlement idempotence.",
+      "sites": [
+        {
+          "line": 7514,
+          "function": "t8"
+        },
+        {
+          "line": 7521,
+          "function": "t8"
+        },
+        {
+          "line": 8266,
+          "function": "uY"
+        },
+        {
+          "line": 8324,
+          "function": "uY"
+        },
+        {
+          "line": 11679,
+          "function": "vu"
+        },
+        {
+          "line": 11846,
+          "function": "v1"
+        },
+        {
+          "line": 12219,
+          "function": "v8"
+        },
+        {
+          "line": 12634,
+          "function": "wK"
+        },
+        {
+          "line": 13197,
+          "function": "wW"
+        },
+        {
+          "line": 13376,
+          "function": "wZ"
+        },
+        {
+          "line": 35797,
+          "function": "BQg"
+        },
+        {
+          "line": 37050,
+          "function": "BRz"
+        }
+      ]
+    },
+    "VIP2": {
+      "label": "白金祝福",
+      "effect": "uY cap+15, money efficiency+5%, XP+10%, R002; BBq keep/replace existing skill dialogs; equipment-upgrade failure10-50%refund via R002.",
+      "proposed_free_rule": "Cumulative preset; preserve original upgrade costs/refund RNG; add fifth dialogs before enabling.",
+      "guards_and_growth": "Initialize once; one physical book use/choice; validate dialog owner and pending token.",
+      "sites": [
+        {
+          "line": 7514,
+          "function": "t8"
+        },
+        {
+          "line": 7521,
+          "function": "t8"
+        },
+        {
+          "line": 8278,
+          "function": "uY"
+        },
+        {
+          "line": 8324,
+          "function": "uY"
+        },
+        {
+          "line": 11679,
+          "function": "vu"
+        },
+        {
+          "line": 11846,
+          "function": "v1"
+        },
+        {
+          "line": 12219,
+          "function": "v8"
+        },
+        {
+          "line": 12634,
+          "function": "wK"
+        },
+        {
+          "line": 13197,
+          "function": "wW"
+        },
+        {
+          "line": 13376,
+          "function": "wZ"
+        },
+        {
+          "line": 20334,
+          "function": "BBq"
+        },
+        {
+          "line": 20510,
+          "function": "BBq"
+        }
+      ]
+    },
+    "VIP3": {
+      "label": "钻石祝福",
+      "effect": "uY post-revive protection10 vs default5; R000 half revive time; starting puzzle pack;10s overflow grace; doubled earned mastery in v4/wR/BQm/BR1 capped500.",
+      "proposed_free_rule": "Cumulative preset per effect; preserve mode and active-roster conditions, original triggers.",
+      "guards_and_growth": "Starting kit once; hero mastery earned normally, never initialize500; settlement once.",
+      "sites": [
+        {
+          "line": 7514,
+          "function": "t8"
+        },
+        {
+          "line": 7521,
+          "function": "t8"
+        },
+        {
+          "line": 8288,
+          "function": "uY"
+        },
+        {
+          "line": 8324,
+          "function": "uY"
+        },
+        {
+          "line": 10119,
+          "function": "ux"
+        },
+        {
+          "line": 10628,
+          "function": "u7"
+        },
+        {
+          "line": 11679,
+          "function": "vu"
+        },
+        {
+          "line": 11846,
+          "function": "v1"
+        },
+        {
+          "line": 12063,
+          "function": "v4"
+        },
+        {
+          "line": 12219,
+          "function": "v8"
+        },
+        {
+          "line": 12634,
+          "function": "wK"
+        },
+        {
+          "line": 12877,
+          "function": "wR"
+        },
+        {
+          "line": 13197,
+          "function": "wW"
+        },
+        {
+          "line": 13376,
+          "function": "wZ"
+        },
+        {
+          "line": 34096,
+          "function": "BO9"
+        },
+        {
+          "line": 34096,
+          "function": "BO9"
+        },
+        {
+          "line": 34096,
+          "function": "BO9"
+        },
+        {
+          "line": 34096,
+          "function": "BO9"
+        },
+        {
+          "line": 35920,
+          "function": "BQm"
+        },
+        {
+          "line": 37112,
+          "function": "BR1"
+        },
+        {
+          "line": 37122,
+          "function": "BR1"
+        }
+      ]
+    },
+    "PTLB": {
+      "label": "拼图礼包",
+      "effect": "ux/u7 give I02Y; BBy21221 opens4% large puzzle else2-5 random puzzles; owner-locked.",
+      "proposed_free_rule": "One free PTLB source pack/run, preserve opening RNG; VIP3 is another explicit source if preset enabled.",
+      "guards_and_growth": "No regrant on reroll/repeated initialization. Preserve permanent puzzle unlock/strengthening.",
+      "sites": [
+        {
+          "line": 7514,
+          "function": "t8"
+        },
+        {
+          "line": 7521,
+          "function": "t8"
+        },
+        {
+          "line": 10096,
+          "function": "ux"
+        },
+        {
+          "line": 10613,
+          "function": "u7"
+        },
+        {
+          "line": 11679,
+          "function": "vu"
+        }
+      ]
+    },
+    "LWJ": {
+      "label": "老玩家回归豪礼",
+      "effect": "ux/u7 give I05Z if !LWJT. BBy21246 manual use boosts3 random non-HFS heroes to500 and HGG/HFS. Legacy anti-cheat also checks tag.",
+      "proposed_free_rule": "Free manual original I05Z entry, once/independent profile; default unopened. Remove enforcement branches separately.",
+      "guards_and_growth": "Durable isolated LWJT flag; atomically reserve gift and mark use. No bulk auto-claim. Fix counter double increment and1..148 range.",
+      "sites": [
+        {
+          "line": 7514,
+          "function": "t8"
+        },
+        {
+          "line": 7521,
+          "function": "t8"
+        },
+        {
+          "line": 9697,
+          "function": "un"
+        },
+        {
+          "line": 10088,
+          "function": "ux"
+        },
+        {
+          "line": 10597,
+          "function": "u7"
+        },
+        {
+          "line": 11679,
+          "function": "vu"
+        },
+        {
+          "line": 12074,
+          "function": "v4"
+        },
+        {
+          "line": 12888,
+          "function": "wR"
+        },
+        {
+          "line": 21246,
+          "function": "BBy"
+        }
+      ]
+    },
+    "S1CB": {
+      "label": "第1赛季仙境之翼",
+      "effect": "uY sets R0061; A0CC Requires R0061; BSN37558..37564 selected wing damage+14%. A0CG is placeholder.",
+      "proposed_free_rule": "Free actual A0CC selection, no fabricated historical rank.",
+      "guards_and_growth": "Normal wing exclusive: remove old effect/stat delta first. A0CG unknown placeholder is not verified playable.",
+      "sites": [
+        {
+          "line": 8293,
+          "function": "uY"
+        }
+      ]
+    },
+    "S1ZQ": {
+      "label": "第1赛季大红龙",
+      "effect": "uY R00I1; A0LW; BR9 mount ID7,8% reduction while mounted.",
+      "proposed_free_rule": "Free collection unlock; shared prerequisite at least1.",
+      "guards_and_growth": "One active mount; remove old mounted ability and replace AFC40A99/74CDE3A7.",
+      "sites": [
+        {
+          "line": 8297,
+          "function": "uY"
+        }
+      ]
+    },
+    "S1CH": {
+      "label": "第1赛季混乱制造者",
+      "effect": "Inside S1ZQ branch uY upgrades R00I2; A0LX; BSQ37715 title crit+3%, critical multiplier+0.5.",
+      "proposed_free_rule": "Free title selection, set shared prerequisite2 once; also satisfies mount1.",
+      "guards_and_growth": "One gameplay title: restore base name and subtract previous FE31C9A2/EE0573CF before apply.",
+      "sites": [
+        {
+          "line": 8299,
+          "function": "uY"
+        }
+      ]
+    },
+    "S2ZQ": {
+      "label": "生命摇篮坐骑",
+      "effect": "uY disables A0O4 when absent; BR9 ID10, A0O3 mounted ability,7% reduction while mounted.",
+      "proposed_free_rule": "Free selectable mount; leave A0O4 enabled.",
+      "guards_and_growth": "Normal one-mount replacement; no stacked reductions.",
+      "sites": [
+        {
+          "line": 8305,
+          "function": "uY"
+        }
+      ]
+    },
+    "TXZ": {
+      "label": "沙河通行证",
+      "effect": "uY enables In/R00K, loads TGDS and R004 tiers50/150/300/500/800/1200. BQg/BRz award5+difficulty per genuine clear. BRd rewards A..G.",
+      "proposed_free_rule": "Free access, TGDS starts0, ordinary clears earn points capped1200; retain thresholds and real rewards.",
+      "guards_and_growth": "Correct BRc/BRd grouping: (direct OR bulk) AND !claimed AND tier. Seven once/run claimflags; no initial maxing.",
+      "sites": [
+        {
+          "line": 8322,
+          "function": "uY"
+        },
+        {
+          "line": 11846,
+          "function": "v1"
+        },
+        {
+          "line": 12219,
+          "function": "v8"
+        },
+        {
+          "line": 12634,
+          "function": "wK"
+        },
+        {
+          "line": 13197,
+          "function": "wW"
+        },
+        {
+          "line": 13376,
+          "function": "wZ"
+        },
+        {
+          "line": 35756,
+          "function": "BQg"
+        },
+        {
+          "line": 36616,
+          "function": "BRc"
+        },
+        {
+          "line": 36740,
+          "function": "BRf"
+        },
+        {
+          "line": 36992,
+          "function": "BRz"
+        }
+      ]
+    },
+    "TRE": {
+      "label": "迷你泰瑞尔",
+      "effect": "ux/u7 h034 replaces camel h00I in same courier handle52513C84. Kv every100s calls vq to produce I2[6] item.",
+      "proposed_free_rule": "Free one courier skin/service; preserve100s production and intended alternate-mode source.",
+      "guards_and_growth": "Create once Starting; production only Playing/active. One courier, no duplicate timer per player.",
+      "sites": [
+        {
+          "line": 8324,
+          "function": "uY"
+        },
+        {
+          "line": 10082,
+          "function": "ux"
+        },
+        {
+          "line": 10591,
+          "function": "u7"
+        },
+        {
+          "line": 11602,
+          "function": "vq"
+        },
+        {
+          "line": 11846,
+          "function": "v1"
+        },
+        {
+          "line": 12219,
+          "function": "v8"
+        },
+        {
+          "line": 12634,
+          "function": "wK"
+        },
+        {
+          "line": 13197,
+          "function": "wW"
+        },
+        {
+          "line": 13376,
+          "function": "wZ"
+        }
+      ]
+    },
+    "PET1": {
+      "label": "九尾狐",
+      "effect": "v1/v8/wK e00U handleADC2CB6C; every30s +10STR/AGI/INT,+1%damage. A0DD4-state display/stats toggle.",
+      "proposed_free_rule": "Free access; create once Starting; one stored growth timer. PET1/PET2 can coexist.",
+      "guards_and_growth": "(state0 OR state1) AND Playing/active/alive/mode. Toggle state does not create extra timers; no Selecting growth.",
+      "sites": [
+        {
+          "line": 8324,
+          "function": "uY"
+        },
+        {
+          "line": 11845,
+          "function": "v1"
+        },
+        {
+          "line": 12218,
+          "function": "v8"
+        },
+        {
+          "line": 12633,
+          "function": "wK"
+        },
+        {
+          "line": 13201,
+          "function": "wW"
+        },
+        {
+          "line": 13380,
+          "function": "wZ"
+        },
+        {
+          "line": 35071,
+          "function": "BPl"
+        }
+      ]
+    },
+    "PET2": {
+      "label": "冰雪小宠",
+      "effect": "v1/wK n01G handle535F5C27;30s update attack=hero attack18+19; show/hide chat.",
+      "proposed_free_rule": "Free separate pet, one unit and one timer, same original attack tracking.",
+      "guards_and_growth": "Playing/active gate for recurring update; no duplicate unit; fifth show/hide registrations required.",
+      "sites": [
+        {
+          "line": 11862,
+          "function": "v1"
+        },
+        {
+          "line": 12650,
+          "function": "wK"
+        },
+        {
+          "line": 13205,
+          "function": "wW"
+        },
+        {
+          "line": 13384,
+          "function": "wZ"
+        },
+        {
+          "line": 36544,
+          "function": "BRS"
+        },
+        {
+          "line": 36560,
+          "function": "BRV"
+        }
+      ]
+    },
+    "IMBAG": {
+      "label": "无尽黄金魔袋",
+      "effect": "Startup IL[ConvertedId]; baseLv0; zC pays lumber for upgrade to10. Kill threshold400-10*level; reward5000..15000gold,20+5*level allstats; persists/reset counter; efficiency10+4*level%.",
+      "proposed_free_rule": "Free base bag once/run; preserve original kill cycles, lumber costs and cap.",
+      "guards_and_growth": "One golden bag carried across families. Fifth IL6 missing; independent item clone and rawcode predicates required.",
+      "sites": [
+        {
+          "line": 8324,
+          "function": "uY"
+        },
+        {
+          "line": 10112,
+          "function": "ux"
+        },
+        {
+          "line": 10621,
+          "function": "u7"
+        },
+        {
+          "line": 11846,
+          "function": "v1"
+        },
+        {
+          "line": 13197,
+          "function": "wW"
+        },
+        {
+          "line": 13376,
+          "function": "wZ"
+        },
+        {
+          "line": 17309,
+          "function": "zB"
+        },
+        {
+          "line": 25255,
+          "function": "BDV"
+        }
+      ]
+    },
+    "3FJT": {
+      "label": "第三座方尖塔",
+      "effect": "ux/u7 give I06O construction item; Jc/BOB tower random-skill initialization.",
+      "proposed_free_rule": "One free third-tower token/run; preserve location/lane ownership and random tower behavior.",
+      "guards_and_growth": "Starting source flag, consumed token once; do not duplicate first/second timed towers.",
+      "sites": [
+        {
+          "line": 10104,
+          "function": "ux"
+        },
+        {
+          "line": 10605,
+          "function": "u7"
+        }
+      ]
+    },
+    "BOOKD": {
+      "label": "普通/D级技能书",
+      "effect": "ux10141/u710650 give50/50 I01J active/I01O passive, consume original Boolean42 quantity1; learns random skill replacing slot.",
+      "proposed_free_rule": "One explicit free BOOKD source/run; keep original synchronized learning RNG/choice and local item consumption.",
+      "guards_and_growth": "No platform balance/Boolean42 consumption; no repeated starter grants.",
+      "sites": [
+        {
+          "line": 10141,
+          "function": "ux"
+        },
+        {
+          "line": 10650,
+          "function": "u7"
+        }
+      ]
+    },
+    "BOOKC": {
+      "label": "C级技能书",
+      "effect": "ux10150/u710659 give50/50 I01K/I01P; automatic mode branch can grant without ownership yet still calls Boolean42.",
+      "proposed_free_rule": "One explicit free BOOKC source/run, merge auto-mode and free source into same claim.",
+      "guards_and_growth": "VIP0 C-book can be separate source; reroll/repeated init cannot mint another BOOKC.",
+      "sites": [
+        {
+          "line": 10150,
+          "function": "ux"
+        },
+        {
+          "line": 10659,
+          "function": "u7"
+        }
+      ]
+    },
+    "BOOKB": {
+      "label": "B级技能书",
+      "effect": "ux10159/u710668 give50/50 I01L/I01Q then local random learning/overwrite; Boolean42 quantity1.",
+      "proposed_free_rule": "One explicit free BOOKB source/run; retain original learn/overwrite mechanics.",
+      "guards_and_growth": "Source token/run and physical item consumption; no cloudstock.",
+      "sites": [
+        {
+          "line": 10159,
+          "function": "ux"
+        },
+        {
+          "line": 10668,
+          "function": "u7"
+        }
+      ]
+    },
+    "BOOKA": {
+      "label": "A级技能书",
+      "effect": "ux10168/u710677 give50/50 I01M/I01R then local random learning/overwrite; Boolean42 quantity1.",
+      "proposed_free_rule": "One explicit free BOOKA source/run; retain original learn/overwrite mechanics.",
+      "guards_and_growth": "Source token/run and physical item consumption; no cloudstock.",
+      "sites": [
+        {
+          "line": 10168,
+          "function": "ux"
+        },
+        {
+          "line": 10677,
+          "function": "u7"
+        }
+      ]
+    },
+    "BAG3": {
+      "label": "黄金魔袋Lv3",
+      "effect": "ux10177/u710686 give I08L;20%efficiency, consume after400kills for7000..12000gold,+20..40stats. u7 auto mode1.",
+      "proposed_free_rule": "One free BAG3 source/run, auto mode shares same token, delete Boolean42 consume.",
+      "guards_and_growth": "One carried golden bag with IMBAG; keep token/storage if conflict; preserve400kills/RNG.",
+      "sites": [
+        {
+          "line": 10177,
+          "function": "ux"
+        },
+        {
+          "line": 10686,
+          "function": "u7"
+        }
+      ]
+    },
+    "TXCH1": {
+      "label": "沙河梦新春",
+      "effect": "v1/wK initial red-envelope RNG; v3 every5wave, wL every300s alternate mode; BSS -txch1 overhead model.",
+      "proposed_free_rule": "Free cosmetic and original scheduled rewards; cosmetic switch never replays reward.",
+      "guards_and_growth": "One reward per stage/tick/player; replace shared7D1DD015 effect; no Selecting income.",
+      "sites": [
+        {
+          "line": 11833,
+          "function": "v1"
+        },
+        {
+          "line": 11898,
+          "function": "v3"
+        },
+        {
+          "line": 12621,
+          "function": "wK"
+        },
+        {
+          "line": 12663,
+          "function": "wL"
+        },
+        {
+          "line": 37754,
+          "function": "BSS"
+        }
+      ]
+    },
+    "ZBQ1": {
+      "label": "秘籍",
+      "effect": "v3/wB three independent1.5% rolls each+66STR/AGI/INT at scheduled minute/wave boundary.",
+      "proposed_free_rule": "Free same scheduled effect, preserve synchronized RNG/cadence.",
+      "guards_and_growth": "One roll set per real milestone/player; no initial stats or reroll-trigger rewards.",
+      "sites": [
+        {
+          "line": 11880,
+          "function": "v3"
+        },
+        {
+          "line": 12243,
+          "function": "wB"
+        }
+      ]
+    },
+    "JBLB": {
+      "label": "金币礼包",
+      "effect": "BQp A0EF or A0O2 grants2222gold.",
+      "proposed_free_rule": "Free direct/bulk once/run.",
+      "guards_and_growth": "E0FA2E6F false→true before grant, disable A0EF; nested original guard sound. Playing only.",
+      "sites": [
+        {
+          "line": 36115,
+          "function": "BQp"
+        }
+      ]
+    },
+    "MCLB": {
+      "label": "木材礼包",
+      "effect": "BQp A0EG or A0O2 gives+3allstats and I03P reincarnation cross; code grants no lumber.",
+      "proposed_free_rule": "Free direct/bulk once/run, preserve actual effect.",
+      "guards_and_growth": "0AFCD4EA false→true before grant, disable A0EG; nested original guard sound. Playing only.",
+      "sites": [
+        {
+          "line": 36130,
+          "function": "BQp"
+        }
+      ]
+    },
+    "S2CH": {
+      "label": "苍茫万壑特效称号",
+      "effect": "BSS -txch7 replaces overhead7D1DD015 with cmwh3_00000.mdx.",
+      "proposed_free_rule": "Free cosmetic selector; no stat-bearing BSQ title or reward replay.",
+      "guards_and_growth": "Destroy/replace shared overhead effect, no stacking.",
+      "sites": [
+        {
+          "line": 37790,
+          "function": "BSS"
+        }
+      ]
+    }
+  },
+  "source_lines": {
+    "7514": "if LoadInteger(DI,StringHash(GetPlayerName(ConvertedPlayer(Gi))),$46DA1270)==2 or DzAPI_Map_HasMallItem(ConvertedPlayer(Gi),\"VIP1\")==true or DzAPI_Map_HasMallItem(ConvertedPlayer(Gi),\"VIP2\")==true or DzAPI_Map_HasMallItem(ConvertedPlayer(Gi),\"VIP3\")==true or DzAPI_Map_HasMallItem(ConvertedPlayer(Gi),\"PTLB\")==true or DzAPI_Map_HasMallItem(ConvertedPlayer(Gi),\"LWJ\")==false and TZ(ConvertedPlayer(Gi),\"BAN\")==true then",
+    "7521": "if DzAPI_Map_HasMallItem(ConvertedPlayer(Gi),\"VIP1\")==false and DzAPI_Map_HasMallItem(ConvertedPlayer(Gi),\"VIP2\")==false and DzAPI_Map_HasMallItem(ConvertedPlayer(Gi),\"VIP3\")==false and DzAPI_Map_HasMallItem(ConvertedPlayer(Gi),\"PTLB\")==false and DzAPI_Map_HasMallItem(ConvertedPlayer(Gi),\"LWJ\")==false and DzAPI_Map_GetMapLevel(ConvertedPlayer(Gi))<12 then",
+    "8266": "if LoadBoolean(DI,StringHash(\"全局\"),$BBE94EFD)==false and LoadBoolean(DI,StringHash(\"全局\"),$88CEC9C2)==false and DzAPI_Map_HasMallItem(GetEnumPlayer(),\"VIP1\")==true then",
+    "8278": "if LoadBoolean(DI,StringHash(\"全局\"),$BBE94EFD)==false and LoadBoolean(DI,StringHash(\"全局\"),$88CEC9C2)==false and DzAPI_Map_HasMallItem(GetEnumPlayer(),\"VIP2\")==true then",
+    "8288": "if LoadBoolean(DI,StringHash(\"全局\"),$BBE94EFD)==false and LoadBoolean(DI,StringHash(\"全局\"),$88CEC9C2)==false and DzAPI_Map_HasMallItem(GetEnumPlayer(),\"VIP3\")==true then",
+    "8293": "if DzAPI_Map_HasMallItem(GetEnumPlayer(),\"S1CB\")==true then",
+    "8297": "if DzAPI_Map_HasMallItem(GetEnumPlayer(),\"S1ZQ\")==true then",
+    "8299": "if DzAPI_Map_HasMallItem(GetEnumPlayer(),\"S1CH\")==true then",
+    "8305": "if DzAPI_Map_HasMallItem(GetEnumPlayer(),\"S2ZQ\")==true then",
+    "8322": "if LoadBoolean(DI,StringHash(\"全局\"),$BBE94EFD)==false and LoadBoolean(DI,StringHash(\"全局\"),$88CEC9C2)==false and DzAPI_Map_HasMallItem(GetEnumPlayer(),\"TXZ\")==true then",
+    "8324": "if DzAPI_Map_HasMallItem(GetEnumPlayer(),\"TRE\")==true and DzAPI_Map_HasMallItem(GetEnumPlayer(),\"PET1\")==true and DzAPI_Map_HasMallItem(GetEnumPlayer(),\"VIP0\")==true and DzAPI_Map_HasMallItem(GetEnumPlayer(),\"VIP1\")==true and DzAPI_Map_HasMallItem(GetEnumPlayer(),\"VIP2\")==true and DzAPI_Map_HasMallItem(GetEnumPlayer(),\"VIP3\")==true and DzAPI_Map_HasMallItem(GetEnumPlayer(),\"IMBAG\")==true then",
+    "9697": "if DzAPI_Map_GetMapLevel(LoadPlayerHandle(EK,GetHandleId(GetExpiredTimer()),$A59BB4C6))<12 and LoadInteger(DI,StringHash(LoadStr(DI,GetHandleId(LoadPlayerHandle(EK,GetHandleId(GetExpiredTimer()),$A59BB4C6)),$C5531991)),$46DA1270)!=2 and LoadInteger(DI,GetHandleId(LoadPlayerHandle(EK,GetHandleId(GetExpiredTimer()),$A59BB4C6)),$F96A1C62)>=500 and LoadInteger(DI,GetHandleId(LoadPlayerHandle(EK,GetHandleId(GetExpiredTimer()),$A59BB4C6)),$C40625EA)>=500 and LoadInteger(DI,GetHandleId(LoadPlayerHandle(EK,GetHandleId(GetExpiredTimer()),$A59BB4C6)),$4B6ED144)>=500 and DzAPI_Map_HasMallItem(LoadPlayerHandle(EK,GetHandleId(GetExpiredTimer()),$A59BB4C6),\"LWJ\")==false then",
+    "10082": "if DzAPI_Map_HasMallItem(GetEnumPlayer(),\"TRE\")==true then",
+    "10088": "if TZ(GetEnumPlayer(),\"LWJT\")==false and LoadBoolean(DI,StringHash(\"全局\"),$BBE94EFD)==false and LoadBoolean(DI,StringHash(\"全局\"),$88CEC9C2)==false and DzAPI_Map_HasMallItem(GetEnumPlayer(),\"LWJ\")==true then",
+    "10096": "if DzAPI_Map_HasMallItem(GetEnumPlayer(),\"PTLB\")==true then",
+    "10104": "if DzAPI_Map_HasMallItem(GetEnumPlayer(),\"3FJT\")==true then",
+    "10112": "if DzAPI_Map_HasMallItem(GetEnumPlayer(),\"IMBAG\")==true then",
+    "10119": "if DzAPI_Map_HasMallItem(GetEnumPlayer(),\"VIP3\")==true then",
+    "10127": "if DzAPI_Map_HasMallItem(GetEnumPlayer(),\"VIP0\")==true then",
+    "10141": "if DzAPI_Map_HasMallItem(GetEnumPlayer(),\"BOOKD\")==true then",
+    "10150": "if LoadInteger(DI,StringHash(\"全局\"),$818FF5CF)==2 or DzAPI_Map_HasMallItem(GetEnumPlayer(),\"BOOKC\")==true then",
+    "10159": "if DzAPI_Map_HasMallItem(GetEnumPlayer(),\"BOOKB\")==true then",
+    "10168": "if DzAPI_Map_HasMallItem(GetEnumPlayer(),\"BOOKA\")==true then",
+    "10177": "if DzAPI_Map_HasMallItem(GetEnumPlayer(),\"BAG3\")==true then",
+    "10591": "if DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"TRE\")==true then",
+    "10597": "if TZ(GetOwningPlayer(GetTriggerUnit()),\"LWJT\")==false and LoadBoolean(DI,StringHash(\"全局\"),$BBE94EFD)==false and LoadBoolean(DI,StringHash(\"全局\"),$88CEC9C2)==false and DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"LWJ\")==true then",
+    "10605": "if LoadBoolean(DI,StringHash(\"全局\"),$BBE94EFD)==false and DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"3FJT\")==true then",
+    "10613": "if LoadBoolean(DI,StringHash(\"全局\"),$BBE94EFD)==false and DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"PTLB\")==true then",
+    "10621": "if LoadBoolean(DI,StringHash(\"全局\"),$BBE94EFD)==false and DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"IMBAG\")==true then",
+    "10628": "if LoadBoolean(DI,StringHash(\"全局\"),$BBE94EFD)==false and DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"VIP3\")==true then",
+    "10636": "if LoadBoolean(DI,StringHash(\"全局\"),$BBE94EFD)==false and DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"VIP0\")==true then",
+    "10650": "if LoadBoolean(DI,StringHash(\"全局\"),$BBE94EFD)==false and DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"BOOKD\")==true then",
+    "10659": "if LoadBoolean(DI,StringHash(\"全局\"),$BBE94EFD)==false and LoadInteger(DI,StringHash(\"全局\"),$818FF5CF)==2 or DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"BOOKC\")==true then",
+    "10668": "if LoadBoolean(DI,StringHash(\"全局\"),$BBE94EFD)==false and DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"BOOKB\")==true then",
+    "10677": "if LoadBoolean(DI,StringHash(\"全局\"),$BBE94EFD)==false and DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"BOOKA\")==true then",
+    "10686": "if LoadBoolean(DI,StringHash(\"全局\"),$BBE94EFD)==false and DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"BAG3\")==true or LoadInteger(DI,StringHash(\"全局\"),$818FF5CF)==1 then",
+    "11602": "if LoadBoolean(DI,StringHash(\"全局\"),$8701588A)==true or (LoadBoolean(DI,StringHash(\"全局\"),$BBE94EFD)==false and DzAPI_Map_HasMallItem(GetEnumPlayer(),\"TRE\")==true) then",
+    "11679": "if ((GetHeroStr(HQ[GetPlayerId(GetEnumPlayer())],false)>=3000 and GetHeroAgi(HQ[GetPlayerId(GetEnumPlayer())],false)>=2500 and GetHeroInt(HQ[GetPlayerId(GetEnumPlayer())],false)>=2500) or GetHeroAgi(HQ[GetPlayerId(GetEnumPlayer())],false)>=3000 or GetHeroInt(HQ[GetPlayerId(GetEnumPlayer())],false)>=3000 or GetHeroStr(HQ[GetPlayerId(GetEnumPlayer())],false)>=5000 or LoadInteger(DI,GetHandleId(GetEnumPlayer()),$987C4BEC)>=500 or LoadInteger(DI,GetHandleId(GetEnumPlayer()),$F96A1C62)>=500 or LoadInteger(DI,GetHandleId(GetEnumPlayer()),$C40625EA)>=300 or LoadInteger(DI,GetHandleId(GetEnumPlayer()),$4B6ED144)>=100 and LoadInteger(DI,StringHash(\"全局\"),$8B909B14)<10 and DzAPI_Map_GetMapLevel(GetEnumPlayer())<=9) or ((GetUnitTypeId(HQ[GetPlayerId(GetEnumPlayer())])!=$48303242 and GetHeroLevel(HQ[GetPlayerId(GetEnumPlayer())])>=10) or (GetPlayerState(GetEnumPlayer(),PLAYER_STATE_RESOURCE_LUMBER)<900000 and GetPlayerState(GetEnumPlayer(),PLAYER_STATE_RESOURCE_LUMBER)>=100) or GetPlayerState(GetEnumPlayer(),PLAYER_STATE_RESOURCE_GOLD)>=100000 or GetHeroStr(HQ[GetPlayerId(GetEnumPlayer())],false)>=2500 or GetHeroAgi(HQ[GetPlayerId(GetEnumPlayer())],false)>=1500 or GetHeroInt(HQ[GetPlayerId(GetEnumPlayer())],false)>=1500 or LoadInteger(DI,GetHandleId(GetEnumPlayer()),$987C4BEC)>=400 or LoadInteger(DI,GetHandleId(GetEnumPlayer()),$F96A1C62)>=300 or LoadInteger(DI,GetHandleId(GetEnumPlayer()),$C40625EA)>=150 or LoadInteger(DI,GetHandleId(GetEnumPlayer()),$4B6ED144)>=50 or LoadInteger(DI,GetHandleId(GetEnumPlayer()),$BB6986A5)>=50 and LoadInteger(DI,StringHash(\"全局\"),$8B909B14)<6 and DzAPI_Map_GetMapLevel(GetEnumPlayer())<=7) or (GetPlayerTechCountSimple($52303052,GetEnumPlayer())>=1 and GetPlayerTechCountSimple($52303053,GetEnumPlayer())>=1 and GetPlayerTechCountSimple($52303054,GetEnumPlayer())>=1 and GetPlayerTechCountSimple($52303055,GetEnumPlayer())>=1 and GetPlayerTechCountSimple($52303056,GetEnumPlayer())>=1 and GetPlayerTechCountSimple($52303057,GetEnumPlayer())>=1 and GetPlayerTechCountSimple($52303058,GetEnumPlayer())>=1 and GetPlayerTechCountSimple($52303059,GetEnumPlayer())>=1 and GetPlayerTechCountSimple($5230305A,GetEnumPlayer())>=1 and GetPlayerTechCountSimple($52303130,GetEnumPlayer())>=1 and GetPlayerTechCountSimple($52303131,GetEnumPlayer())>=1 and GetPlayerTechCountSimple($52303132,GetEnumPlayer())>=1 and DzAPI_Map_GetMapLevel(GetEnumPlayer())<=3) or (LoadInteger(DI,GetHandleId(GetEnumPlayer()),$781A40EB)>=9 and DzAPI_Map_GetMapLevel(GetEnumPlayer())<=4 or LoadInteger(DI,GetHandleId(GetEnumPlayer()),$24502D41)<9 or LoadInteger(DI,GetHandleId(GetEnumPlayer()),$BB6986A5)<5) or (GetPlayerTechCountSimple($52303031,GetEnumPlayer())>=1 and GetPlayerTechCountSimple($52303042,GetEnumPlayer())>=1 and GetPlayerTechCountSimple($52303038,GetEnumPlayer())>=1 and GetPlayerTechCountSimple($52303041,GetEnumPlayer())>=1 and GetPlayerTechCountSimple($52303045,GetEnumPlayer())>=3 and GetPlayerTechCountSimple($52303047,GetEnumPlayer())>=1 and GetPlayerTechCountSimple($5230304C,GetEnumPlayer())>=1 and GetPlayerTechCountSimple($52303039,GetEnumPlayer())>=1 and GetPlayerTechCountSimple($52303044,GetEnumPlayer())>=1 and DzAPI_Map_GetMapLevel(GetEnumPlayer())<=8) or (LoadInteger(DI,GetHandleId(GetEnumPlayer()),$F96A1C62)>=300 and LoadInteger(DI,GetHandleId(GetEnumPlayer()),$C40625EA)>=250 and LoadInteger(DI,GetHandleId(GetEnumPlayer()),$4B6ED144)>=200 and DzAPI_Map_GetMapLevel(GetEnumPlayer())<=12) or (LoadInteger(DI,GetHandleId(GetEnumPlayer()),$F96A1C62)>=200 and LoadInteger(DI,GetHandleId(GetEnumPlayer()),$C40625EA)>=150 and LoadInteger(DI,GetHandleId(GetEnumPlayer()),$4B6ED144)>=80 and DzAPI_Map_GetMapLevel(GetEnumPlayer())<=10) or (LoadInteger(DI,GetHandleId(GetEnumPlayer()),$F96A1C62)>=100 and LoadInteger(DI,GetHandleId(GetEnumPlayer()),$C40625EA)>=50 and LoadInteger(DI,GetHandleId(GetEnumPlayer()),$4B6ED144)>=30 and DzAPI_Map_GetMapLevel(GetEnumPlayer())<=5) or (LoadInteger(DI,GetHandleId(GetEnumPlayer()),$BB6986A5)>=60 and DzAPI_Map_GetMapLevel(GetEnumPlayer())<=10) or (LoadInteger(DI,GetHandleId(GetEnumPlayer()),$BB6986A5)>=100 and DzAPI_Map_GetMapLevel(GetEnumPlayer())<=11) or LoadInteger(DI,GetHandleId(GetEnumPlayer()),$781A40EB)>=11 or LoadInteger(DI,GetHandleId(GetEnumPlayer()),$F034EC60)>=LoadInteger(DI,GetHandleId(GetEnumPlayer()),$BC468F0D)+199 or DzAPI_Map_GetGuildName(GetEnumPlayer())==\"尘心\" or DzAPI_Map_GetGuildName(GetEnumPlayer())==\"路过的兔子\" and LoadInteger(DI,StringHash(\"全局\"),$8B909B14)>=3 and LoadInteger(DI,GetHandleId(GetEnumPlayer()),$F034EC60)>=7000 and LoadInteger(DI,StringHash(LoadStr(DI,GetHandleId(GetEnumPlayer()),$C5531991)),$46DA1270)!=2 and LoadBoolean(DI,StringHash(\"全局\"),$57F778B6)==false and DzAPI_Map_HasMallItem(GetEnumPlayer(),\"PTLB\")==false and DzAPI_Map_HasMallItem(GetEnumPlayer(),\"VIP1\")==false and DzAPI_Map_HasMallItem(GetEnumPlayer(),\"VIP2\")==false and DzAPI_Map_HasMallItem(GetEnumPlayer(),\"VIP3\")==false and DzAPI_Map_HasMallItem(GetEnumPlayer(),\"LWJ\")==false and LoadBoolean(DI,StringHash(\"全局\"),$A63650E)==false then",
+    "11833": "if DzAPI_Map_HasMallItem(GetEnumPlayer(),\"TXCH1\")==true then",
+    "11845": "if LoadBoolean(DI,StringHash(\"全局\"),$8701588A)==true or DzAPI_Map_HasMallItem(GetEnumPlayer(),\"PET1\")==true then",
+    "11846": "if DzAPI_Map_HasMallItem(GetEnumPlayer(),\"TXZ\")==true and DzAPI_Map_HasMallItem(GetEnumPlayer(),\"TRE\")==true and DzAPI_Map_HasMallItem(GetEnumPlayer(),\"VIP0\")==true and DzAPI_Map_HasMallItem(GetEnumPlayer(),\"VIP1\")==true and DzAPI_Map_HasMallItem(GetEnumPlayer(),\"VIP2\")==true and DzAPI_Map_HasMallItem(GetEnumPlayer(),\"VIP3\")==true and DzAPI_Map_HasMallItem(GetEnumPlayer(),\"IMBAG\")==true then",
+    "11862": "if DzAPI_Map_HasMallItem(GetEnumPlayer(),\"PET2\")==true then",
+    "11880": "if DzAPI_Map_HasMallItem(GetEnumPlayer(),\"ZBQ1\")==true then",
+    "11898": "if ModuloInteger(LoadInteger(DI,StringHash(\"全局\"),$8B909B14),5)==0 and DzAPI_Map_HasMallItem(GetEnumPlayer(),\"TXCH1\")==true then",
+    "12063": "if DzAPI_Map_HasMallItem(LoadPlayerHandle(EK,GetHandleId(GetTriggeringTrigger())*F5,$A59BB4C6),\"VIP3\")==true then",
+    "12074": "if DzAPI_Map_GetMapLevel(LoadPlayerHandle(EK,GetHandleId(GetTriggeringTrigger())*F5,$A59BB4C6))<12 and LoadInteger(DI,GetHandleId(LoadPlayerHandle(EK,GetHandleId(GetTriggeringTrigger())*F5,$A59BB4C6)),$F96A1C62)>=500 and LoadInteger(DI,GetHandleId(LoadPlayerHandle(EK,GetHandleId(GetTriggeringTrigger())*F5,$A59BB4C6)),$C40625EA)>=500 and LoadInteger(DI,GetHandleId(LoadPlayerHandle(EK,GetHandleId(GetTriggeringTrigger())*F5,$A59BB4C6)),$4B6ED144)>=500 and DzAPI_Map_HasMallItem(LoadPlayerHandle(EK,GetHandleId(GetTriggeringTrigger())*F5,$A59BB4C6),\"LWJ\")==false then",
+    "12218": "if DzAPI_Map_HasMallItem(GetEnumPlayer(),\"PET1\")==true then",
+    "12219": "if DzAPI_Map_HasMallItem(GetEnumPlayer(),\"TXZ\")==true and DzAPI_Map_HasMallItem(GetEnumPlayer(),\"TRE\")==true and DzAPI_Map_HasMallItem(GetEnumPlayer(),\"VIP0\")==true and DzAPI_Map_HasMallItem(GetEnumPlayer(),\"VIP1\")==true and DzAPI_Map_HasMallItem(GetEnumPlayer(),\"VIP2\")==true and DzAPI_Map_HasMallItem(GetEnumPlayer(),\"VIP3\")==true then",
+    "12243": "if DzAPI_Map_HasMallItem(GetEnumPlayer(),\"ZBQ1\")==true then",
+    "12621": "if DzAPI_Map_HasMallItem(GetEnumPlayer(),\"TXCH1\")==true then",
+    "12633": "if LoadBoolean(DI,StringHash(\"全局\"),$8701588A)==true or DzAPI_Map_HasMallItem(GetEnumPlayer(),\"PET1\")==true then",
+    "12634": "if DzAPI_Map_HasMallItem(GetEnumPlayer(),\"TXZ\")==true and DzAPI_Map_HasMallItem(GetEnumPlayer(),\"TRE\")==true and DzAPI_Map_HasMallItem(GetEnumPlayer(),\"VIP0\")==true and DzAPI_Map_HasMallItem(GetEnumPlayer(),\"VIP1\")==true and DzAPI_Map_HasMallItem(GetEnumPlayer(),\"VIP2\")==true and DzAPI_Map_HasMallItem(GetEnumPlayer(),\"VIP3\")==true then",
+    "12650": "if DzAPI_Map_HasMallItem(GetEnumPlayer(),\"PET2\")==true then",
+    "12663": "if DzAPI_Map_HasMallItem(GetEnumPlayer(),\"TXCH1\")==true then",
+    "12877": "if DzAPI_Map_HasMallItem(LoadPlayerHandle(EK,GetHandleId(GetTriggeringTrigger())*F5,$A59BB4C6),\"VIP3\")==true then",
+    "12888": "if DzAPI_Map_GetMapLevel(LoadPlayerHandle(EK,GetHandleId(GetTriggeringTrigger())*F5,$A59BB4C6))<12 and LoadInteger(DI,GetHandleId(LoadPlayerHandle(EK,GetHandleId(GetTriggeringTrigger())*F5,$A59BB4C6)),$F96A1C62)>=500 and LoadInteger(DI,GetHandleId(LoadPlayerHandle(EK,GetHandleId(GetTriggeringTrigger())*F5,$A59BB4C6)),$C40625EA)>=500 and LoadInteger(DI,GetHandleId(LoadPlayerHandle(EK,GetHandleId(GetTriggeringTrigger())*F5,$A59BB4C6)),$4B6ED144)>=500 and DzAPI_Map_HasMallItem(LoadPlayerHandle(EK,GetHandleId(GetTriggeringTrigger())*F5,$A59BB4C6),\"LWJ\")==false then",
+    "13197": "if LoadInteger(DI,StringHash(\"全局\"),$8B909B14)>0 and DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"TXZ\")==true and DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"TRE\")==true and DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"VIP0\")==true and DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"VIP1\")==true and DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"VIP2\")==true and DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"VIP3\")==true and DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"IMBAG\")==true then",
+    "13201": "if DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"PET1\")==true then",
+    "13205": "if DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"PET2\")==true then",
+    "13376": "if LoadInteger(DI,StringHash(\"全局\"),$8B909B14)>0 and DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"TXZ\")==true and DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"TRE\")==true and DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"VIP0\")==true and DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"VIP1\")==true and DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"VIP2\")==true and DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"VIP3\")==true and DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"IMBAG\")==true then",
+    "13380": "if DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"PET1\")==true then",
+    "13384": "if DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"PET2\")==true then",
+    "17309": "return DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"IMBAG\")==true and IsUnitIllusionBJ(GetTriggerUnit())!=true and GetSpellAbilityId()==$41304E36",
+    "20334": "if LoadBoolean(DI,StringHash(\"全局\"),$BBE94EFD)==false and LoadBoolean(DI,StringHash(\"全局\"),$88CEC9C2)==false and HaveSavedInteger(DI,GetHandleId(HQ[LoadInteger(EK,GetHandleId(GetTriggeringTrigger())*F5,$25DAB820)]),$582FA68A)==true and DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"VIP2\")==true then",
+    "20510": "if LoadBoolean(DI,StringHash(\"全局\"),$BBE94EFD)==false and LoadBoolean(DI,StringHash(\"全局\"),$88CEC9C2)==false and HaveSavedInteger(DI,GetHandleId(HQ[LoadInteger(EK,GetHandleId(GetTriggeringTrigger())*F5,$25DAB820)]),$DC9C3938)==true and DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"VIP2\")==true then",
+    "21246": "if DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"LWJ\")==true and TZ(GetOwningPlayer(GetTriggerUnit()),\"LWJT\")==false and GetItemTypeId(GetManipulatedItem())==$4930355A then",
+    "25255": "if DzAPI_Map_HasMallItem(GetOwningPlayer(GetKillingUnitBJ()),\"IMBAG\")==true and cx(HQ[GetPlayerId(GetOwningPlayer(GetKillingUnitBJ()))],$4930354A)==true or cx(HQ[GetPlayerId(GetOwningPlayer(GetKillingUnitBJ()))],$4930354C)==true or cx(HQ[GetPlayerId(GetOwningPlayer(GetKillingUnitBJ()))],$4930354E)==true or cx(HQ[GetPlayerId(GetOwningPlayer(GetKillingUnitBJ()))],$49303555)==true then",
+    "34096": "if LoadBoolean(DI,StringHash(\"全局\"),$88CEC9C2)==false and DzAPI_Map_HasMallItem(Player(0),\"VIP3\")==true or DzAPI_Map_HasMallItem(Player(1),\"VIP3\")==true or DzAPI_Map_HasMallItem(Player(2),\"VIP3\")==true or DzAPI_Map_HasMallItem(Player(3),\"VIP3\")==true then",
+    "35071": "if GetSpellAbilityId()==$41304444 and DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"PET1\")==true then",
+    "35756": "if DzAPI_Map_HasMallItem(GetEnumPlayer(),\"TXZ\")==true then",
+    "35797": "if LoadBoolean(DI,StringHash(LoadStr(DI,GetHandleId(GetEnumPlayer()),$C5531991)),$7DEE92F8)==true or DzAPI_Map_HasMallItem(GetEnumPlayer(),\"VIP1\")==true then",
+    "35920": "if DzAPI_Map_HasMallItem(LoadPlayerHandle(EK,GetHandleId(GetTriggeringTrigger())*F5,$A59BB4C6),\"VIP3\")==true then",
+    "36115": "if DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"JBLB\")==true then",
+    "36130": "if DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"MCLB\")==true then",
+    "36544": "return DzAPI_Map_HasMallItem(GetTriggerPlayer(),\"PET2\")==true",
+    "36560": "return DzAPI_Map_HasMallItem(GetTriggerPlayer(),\"PET2\")==true",
+    "36616": "return DzAPI_Map_HasMallItem(GetOwningPlayer(GetTriggerUnit()),\"TXZ\")==true and GetSpellAbilityId()==$41304F32 or GetSpellAbilityId()==$41304D44 or GetSpellAbilityId()==$41304D45 or GetSpellAbilityId()==$41304D46 or GetSpellAbilityId()==$41304D47 or GetSpellAbilityId()==$41304D48 or GetSpellAbilityId()==$41304D49 or GetSpellAbilityId()==$41304E41",
+    "36740": "if DzAPI_Map_HasMallItem(GetTriggerPlayer(),\"TXZ\")==true then",
+    "36992": "if DzAPI_Map_HasMallItem(GetEnumPlayer(),\"TXZ\")==true then",
+    "37050": "if LoadBoolean(DI,StringHash(LoadStr(DI,GetHandleId(GetEnumPlayer()),$C5531991)),$7DEE92F8)==true or DzAPI_Map_HasMallItem(GetEnumPlayer(),\"VIP1\")==true then",
+    "37112": "if DzAPI_Map_HasMallItem(LoadPlayerHandle(EK,GetHandleId(GetTriggeringTrigger())*F5,$A59BB4C6),\"VIP3\")==true then",
+    "37122": "if DzAPI_Map_HasMallItem(LoadPlayerHandle(EK,GetHandleId(GetTriggeringTrigger())*F5,$A59BB4C6),\"VIP3\")==true then",
+    "37754": "if GetEventPlayerChatString()==\"-txch1\" and DzAPI_Map_HasMallItem(GetTriggerPlayer(),\"TXCH1\")==true then",
+    "37790": "if GetEventPlayerChatString()==\"-txch7\" and DzAPI_Map_HasMallItem(GetTriggerPlayer(),\"S2CH\")==true then"
+  },
+  "object_metadata": {
+    "A01M": {
+      "file": "Units_CampaignAbilityStrings.txt",
+      "Name": "|CffFFFF00黄|Cffffdd00金|Cffffbb00祝|Cffff9900福",
+      "Tip": "|CffFFFF00黄|Cffffdd00金|Cffffbb00祝|Cffff9900福",
+      "Ubertip": "拥有|Cffffff00【黄金祝福】后获得：\n - 开局|Cff00ffff“-re”|Cfff0f0f0次数|Cff00ffff+2\n - 怪上限|Cff00ff00+15|Cffffff00\n - 刷钱效率|Cffffff00+5%\n - 额外经验率|Cff00ff00+10%\n - 额外掉落率|Cff00ff00+15%\n - 通关获得|Cff00ffff双倍积分\n|Cff999999\n在平台商城购买永久解锁",
+      "Requires": "R005"
+    },
+    "A0CC": {
+      "file": "Units_CampaignAbilityStrings.txt",
+      "Name": "翅膀激活",
+      "Tip": "激活仙境之翼(|Cffffcc00D)",
+      "Ubertip": "佩戴|Cffffff00仙境之翼，还可以让英雄的属性提高|Cff00ff00\n增伤|Cff00ff00+14%",
+      "Requires": "R006",
+      "Requiresamount": "1"
+    },
+    "A0CG": {
+      "file": "Units_CampaignAbilityStrings.txt",
+      "Name": "翅膀激活",
+      "Tip": "激活炫彩变色之翼(C)",
+      "Ubertip": "佩戴炫彩变色之翼，还可以让英雄的属性提高\n耐力+????\n敏捷+????\n力量+????\n?????????????",
+      "Requires": "R006",
+      "Requiresamount": "1"
+    },
+    "A0HX": {
+      "file": "Units_CampaignAbilityStrings.txt",
+      "Name": "|CffBFFFFF白|Cffbfefff金|Cffbfdfff祝|Cffbfcfff福",
+      "Tip": "|CffBFFFFF白|Cffbfefff金|Cffbfdfff祝|Cffbfcfff福",
+      "Ubertip": "拥有|Cffbfefff【白金祝福】后获得：\n - 覆盖技能时出现|Cff00ffff确认框\n - 升装备失败返还|Cffffff0010%-50%的金钱\n - 怪上限|Cff00ff00+15|Cffffff00\n - 刷钱效率|Cffffff00+5%\n - 额外经验率|Cff00ff00+10%\n|Cff999999\n在平台商城购买永久解锁",
+      "Requires": "R002"
+    },
+    "A0IC": {
+      "file": "Units_CampaignAbilityStrings.txt",
+      "Name": "|Cff00FFFF钻|Cff2edcff石|Cff5cb9ff祝|Cff8a96ff福",
+      "Tip": "|Cff00FFFF钻|Cff2edcff石|Cff5cb9ff祝|Cff8a96ff福",
+      "Ubertip": "拥有|Cff99ffff【钻石祝福】后获得：\n - 开局额外获得|Cffff8000【拼图礼包】|Cff00ffff\n - 怪超上限有|Cff00ff0010秒缓冲时间\n - 英雄复活时间|Cff00ffff减半|Cffffff00\n - 英雄复活后无敌时间|Cff00ff00翻倍|Cffffff00\n - 获得的熟练度|Cff00ff00翻倍\n|Cff999999\n在平台商城购买永久解锁",
+      "Requires": "R000"
+    },
+    "A0LW": {
+      "file": "Units_CampaignAbilityStrings.txt",
+      "Name": "坐骑激活",
+      "Tip": "激活大红龙坐骑(|Cffffcc00D)",
+      "Ubertip": "骑乘|Cffffff00大红龙，骑乘时|Cff00ff00免伤+8%",
+      "Requires": "R00I",
+      "Requiresamount": "1"
+    },
+    "A0LX": {
+      "file": "Units_CampaignAbilityStrings.txt",
+      "Name": "称号激活",
+      "Tip": "激活【混乱制造者】(|Cffffcc00F)",
+      "Ubertip": "激活|Cffff0000【混乱制造者】称号\n暴击率|Cff00ff00+3%\n暴击伤害|Cff00ff00+0.5倍",
+      "Requires": "R00I",
+      "Requiresamount": "2"
+    },
+    "A0MB": {
+      "file": "Units_CampaignAbilityStrings.txt",
+      "Name": "|CffFF0000血汗钱",
+      "Tip": "|CffFF0000血汗钱",
+      "Ubertip": "购买商城内所有道具后自动激活\n增伤+100%\n\n需要在平台商城购买：烂铁祝福、黄金祝福、白金祝福、钻石祝福、泰瑞尔皮肤、九尾狐宠物、沙河通行证、无尽黄金魔袋，集齐自动激活生效\n\n在天梯排位模式下、比赛模式下无效",
+      "Requires": "R00J"
+    },
+    "A0MC": {
+      "file": "Units_CampaignAbilityStrings.txt",
+      "Name": "沙河通行证",
+      "Tip": "沙河通行证(|Cffffcc00C)",
+      "Ubertip": "点击打开通行证奖励面板\n所有的通行证奖励都在里面领取！\n\n输入【-cx】查看当前通关点数\n获得的通关点数=难度数+5\n（购买沙河通行证后才可以获得通关点数）\n举例：\n通关N1获得6点通关点数\n通关N4获得11点通关点数\n通关N∞获得15点通关点数"
+    },
+    "A0MI": {
+      "file": "Units_CampaignAbilityStrings.txt",
+      "Name": "通行证-奖励F",
+      "Tip": "通行证奖励F(|Cffffcc00S)",
+      "Ubertip": "点击领取奖励：\n|Cffffff00变色彩虹翅膀（可与其他翅膀叠加效果）|Cff00ff00\n三围|Cff00ff00+10",
+      "Requires": "R00K,R004",
+      "Requiresamount": "1,5"
+    },
+    "A0O3": {
+      "file": "Units_CampaignAbilityStrings.txt",
+      "Name": "坐骑",
+      "Tip": "生命摇篮",
+      "Ubertip": "骑乘生命摇篮，骑乘时免伤+7%"
+    },
+    "A0O4": {
+      "file": "Units_CampaignAbilityStrings.txt",
+      "Name": "坐骑激活",
+      "Tip": "激活生命摇篮坐骑",
+      "Ubertip": "骑乘生命摇篮，骑乘时免伤+7%"
+    }
+  },
+  "required_dependencies": [
+    {
+      "id": "fifth_infinite_bag",
+      "functions": [
+        "uW",
+        "ux",
+        "u7",
+        "zC",
+        "BDV",
+        "xa"
+      ],
+      "evidence": [
+        8178,
+        8179,
+        8180,
+        8181,
+        10113,
+        10622,
+        17324,
+        25255,
+        25256
+      ],
+      "detail": "IL1=I05J,IL2=I05L,IL3=I05N,IL4=I05U; noIL6. Clone I05J or I05U independent ItemData/ItemStrings object, assign IL6; extend goldbag efficiency, kill and one-bag predicates with newrawcode; preserve zC global type tooltip isolation. Current object_stage only handles II/IJ/IK."
+    },
+    {
+      "id": "fifth_skill_dialogs",
+      "functions": [
+        "BBq",
+        "BB0",
+        "BB1",
+        "BB2",
+        "BB3"
+      ],
+      "evidence": [
+        20335,
+        20339,
+        20343,
+        20347,
+        20511,
+        20515,
+        20519,
+        20523,
+        21335,
+        21345,
+        21354,
+        21357,
+        21600,
+        21603
+      ],
+      "detail": "Active Player0/1/2/3→Fm/Fo/Fn/Fp, passive→Fq/Fr/Fs/Ft. BBq then unconditionally loads DFB448FB; Player5 no branch. Add2dialogs, registrations MD/MF via BB1/BB3, BB0/BB2 clicked-dialog/Fu5 mapping, GI61/62 active and66/67 passive. Validate current owner/pending choice before ability application."
+    },
+    {
+      "id": "pass_grouping",
+      "functions": [
+        "BRc",
+        "BRd"
+      ],
+      "evidence": [
+        36616,
+        36623,
+        36637,
+        36654,
+        36668,
+        36681,
+        36694,
+        36705
+      ],
+      "detail": "BRc TXZ applies only bulk by precedence. BRd first bulk bypasses claimflag; later individual spell bypasses claimflag/tier. Explicit grouped clauses required for all7."
+    },
+    {
+      "id": "pet_timer_grouping",
+      "functions": [
+        "vz",
+        "v7",
+        "wI",
+        "BPk",
+        "BPl",
+        "v0",
+        "wJ"
+      ],
+      "evidence": [
+        11807,
+        12204,
+        12595,
+        34879,
+        35071,
+        35089,
+        35092
+      ],
+      "detail": "Fox state0 OR state1 AND checks lets state0 bypass guards. Returning to0 starts another30s timer before old maystop. Use one timer/player, correct state grouping and phase/roster gates."
+    },
+    {
+      "id": "fifth_pet_chat",
+      "functions": [
+        "BRU",
+        "BRX"
+      ],
+      "evidence": [
+        36552,
+        36555,
+        36567,
+        36570
+      ],
+      "detail": "Only Player0..3 show/hide PET2 registration. Add Player5. Check BSS chatregistration fifth similarly."
+    },
+    {
+      "id": "LWJ_counter_index",
+      "functions": [
+        "BBy"
+      ],
+      "evidence": [
+        21254,
+        21263,
+        21267,
+        21270
+      ],
+      "detail": "Random hero index1..148 vs158catalog. HFS total incremented twice per successful hero, saved before second. Derive count fromflags, preserve stable sourceheroindex mapping, optional manual local-profile-once gift."
+    },
+    {
+      "id": "full_set_once",
+      "functions": [
+        "uY",
+        "v1",
+        "v8",
+        "wK",
+        "wW",
+        "wZ"
+      ],
+      "evidence": [
+        8324,
+        11846,
+        12219,
+        12634,
+        13197,
+        13376
+      ],
+      "detail": "Full-set conjunctions differ: v1 requiresIMBAG,v8/wKomitIMBAG; wW/wZomitPET1. Explicit configurable preset flag, damage+1 once perhero generation; setR00J/R00P deliberately, do not fake ownership. Replacement hero legitimately reapplies once."
+    }
+  ],
+  "consumable_account_boundary": {
+    "RequestExtraIntegerData45": "Total played games, not purchasedstock: BRf36738 labels局数;uY8259 capsGGC against it.",
+    "RequestExtraBooleanData42": "10quantity1 consumption calls for BOOKD/C/B/A/BAG3 in ux/u7. Delete/isolate actual statements. Eligibility is HasMallItem bool; consumption return ignored.",
+    "free_source_semantics": "Explicit quota/source tokens; no fake purchased balances. Preserve local actual item consumption, kill cycles, book learning and random rewards."
+  },
+  "pass": {
+    "key": "TGDS / DI270CBFC7",
+    "initial": 0,
+    "cap": 1200,
+    "thresholds": [
+      0,
+      50,
+      150,
+      300,
+      500,
+      800,
+      1200
+    ],
+    "claim_flags": [
+      "2F266FC7",
+      "8CB58D35",
+      "9DA8DE45",
+      "50F353CA",
+      "5B6E7798",
+      "FB357475",
+      "D86E445D"
+    ],
+    "notes": [
+      "RewardG last text wrongly callsF and says3000 but code4000. D tooltip says5lumber but code3; retain actual mechanics or deliberately reconcile text.",
+      "A0MI rainbow stores E79E02F0 separate from normalwing EF9F8304; explicitly stackable and earned only atpassF."
+    ]
+  },
+  "exclusivity": {
+    "courier": "One52513C84, miniTyrael or camel.",
+    "pets": "PET1 andPET2 coexist; independent families/handles, not alternative skins. Foxstate0 stats+shown,1stats+hidden,2off+hidden,3off+shown.",
+    "normal_wing": "BSN removesEF9F8304 and subtracts prior2321D7E3/A7881D1E/AD1B16A2 before applying chosenwing.",
+    "pass_rainbow": "SeparateE79E02F0 is allowed to stack with normalwing.",
+    "mount": "BR9 removes old mountedability and replacesAFC40A99 identity/74CDE3A7 reduction.",
+    "gameplay_title": "BSQ restoresbasename then removes oldFE31C9A2/EE0573CF before applying new.",
+    "overhead_title": "BSS replaces7D1DD015; independently cosmetic.",
+    "golden_bags": "Onlyonecarried across finite I084/I08K/I08L/I08M/I034 and IL types. Original pickup17691 predicate has AND/OR hazards; group family checks, exclude manipulateditem and validate actual inventory."
+  },
+  "ordinary_growth": [
+    "New localprofile mastery/HGG/HFS/achievements/passpoints start0; free access is distinct from growth.",
+    "Bag upgrade costs/cap/killcycles, item gold/lumber costs, legitimateclearpoints, mastery500cap, normal graduation/achievement triggers remain.",
+    "Use original synchronized RNG; deterministic policy means explicit quotas/eligibility, not replacing every random reward with fixed output.",
+    "TTRPG upgrade, earned tournament/nicknameflags, guild/maplevelgifts are indirect interfaces requiring classification; do not unlock ordinary growth by enabling26malltags."
+  ],
+  "unresolved": [
+    "Engine/runtime, itemconflict UX, no multi-mode repeated kits, fifth dialogs/chat need actual validation.",
+    "A0CG R006 placeholder has no directhandler; actual A0CC seasonal wing verified fromsource.",
+    "Record cumulativeVIP preset and explicit sharedreward quantities: PTLB+VIP3 can intentionally give2packs;VIP0+BOOKC can intentionally give2Cbooks. This is distinct from duplicatecallback grants.",
+    "R00P also reached by ordinarymaplevel20 and fullset; granting free fullset does not justify changing normal progress counters."
+  ],
+  "vip_preset": {
+    "level": 3,
+    "cumulative": true,
+    "VIP0_separate": true,
+    "fullset_bonus": true
+  }
+}

@@ -1,0 +1,413 @@
+{
+  "namespace": "MJ5_LOCAL_V1",
+  "version": 1,
+  "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()`~-_=+[]{}\\/|?;:'\",.<>",
+  "keys": [
+    {
+      "key": "IGG",
+      "kind": 1,
+      "default": 0,
+      "min": 0,
+      "max": 12,
+      "bound_source": "Fixed menu difficulty assignment max12 tQ:6420; normal best-unlock writes global difficulty or difficulty-1. uY clamps >=10 to9 when SWITCH=false, a legacy compatibility rule."
+    },
+    {
+      "key": "IGGC",
+      "kind": 1,
+      "default": 0,
+      "min": 0,
+      "max": 2147483647,
+      "bound_source": "No source hard maximum; use explicit representational limit rather than pretend gameplay cap."
+    },
+    {
+      "key": "ISCORE",
+      "kind": 1,
+      "default": 0,
+      "min": 0,
+      "max": 2147483647,
+      "bound_source": "No source hard maximum; use explicit representational limit rather than pretend gameplay cap."
+    },
+    {
+      "key": "IGGZB",
+      "kind": 1,
+      "default": 0,
+      "min": 0,
+      "max": 2147483647,
+      "bound_source": "No source hard maximum; use explicit representational limit rather than pretend gameplay cap."
+    },
+    {
+      "key": "ITTRPG",
+      "kind": 1,
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "bound_source": "All writers set literal 1; 0 means absent."
+    },
+    {
+      "key": "ITGDS",
+      "kind": 1,
+      "default": 0,
+      "min": 0,
+      "max": 1200,
+      "bound_source": "Actual growth cap in BQg35758..35762 and BRz36994..36998."
+    },
+    {
+      "key": "IDCG",
+      "kind": 1,
+      "default": 0,
+      "min": 0,
+      "max": 2147483647,
+      "bound_source": "No source hard maximum; use explicit representational limit rather than pretend gameplay cap."
+    },
+    {
+      "key": "IDCGR",
+      "kind": 1,
+      "default": 0,
+      "min": 0,
+      "max": 2147483647,
+      "bound_source": "No source hard maximum; use explicit representational limit rather than pretend gameplay cap."
+    },
+    {
+      "key": "IDS100",
+      "kind": 1,
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "bound_source": "All writers set literal 1; 0 means absent."
+    },
+    {
+      "key": "IZQ1",
+      "kind": 1,
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "bound_source": "All writers set literal 1; 0 means absent."
+    },
+    {
+      "key": "IZQ2",
+      "kind": 1,
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "bound_source": "All writers set literal 1; 0 means absent."
+    },
+    {
+      "key": "IZQ3",
+      "kind": 1,
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "bound_source": "All writers set literal 1; 0 means absent."
+    },
+    {
+      "key": "IZQ4",
+      "kind": 1,
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "bound_source": "All writers set literal 1; 0 means absent."
+    },
+    {
+      "key": "ICB1",
+      "kind": 1,
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "bound_source": "All writers set literal 1; 0 means absent."
+    },
+    {
+      "key": "ICH1",
+      "kind": 1,
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "bound_source": "All writers set literal 1; 0 means absent."
+    },
+    {
+      "key": "ICH2",
+      "kind": 1,
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "bound_source": "All writers set literal 1; 0 means absent."
+    },
+    {
+      "key": "IPT1",
+      "kind": 1,
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "bound_source": "All writers set literal 1; 0 means absent."
+    },
+    {
+      "key": "IPT2",
+      "kind": 1,
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "bound_source": "All writers set literal 1; 0 means absent."
+    },
+    {
+      "key": "IPT3",
+      "kind": 1,
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "bound_source": "All writers set literal 1; 0 means absent."
+    },
+    {
+      "key": "IPT4",
+      "kind": 1,
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "bound_source": "All writers set literal 1; 0 means absent."
+    },
+    {
+      "key": "IPT5",
+      "kind": 1,
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "bound_source": "All writers set literal 1; 0 means absent."
+    },
+    {
+      "key": "IPT6",
+      "kind": 1,
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "bound_source": "All writers set literal 1; 0 means absent."
+    },
+    {
+      "key": "IPT7",
+      "kind": 1,
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "bound_source": "All writers set literal 1; 0 means absent."
+    },
+    {
+      "key": "IPT8",
+      "kind": 1,
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "bound_source": "All writers set literal 1; 0 means absent."
+    },
+    {
+      "key": "IPT9",
+      "kind": 1,
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "bound_source": "All writers set literal 1; 0 means absent."
+    },
+    {
+      "key": "IPT10",
+      "kind": 1,
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "bound_source": "All writers set literal 1; 0 means absent."
+    },
+    {
+      "key": "IPT11",
+      "kind": 1,
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "bound_source": "All writers set literal 1; 0 means absent."
+    },
+    {
+      "key": "IPT12",
+      "kind": 1,
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "bound_source": "All writers set literal 1; 0 means absent."
+    },
+    {
+      "key": "IMIN",
+      "kind": 1,
+      "default": 0,
+      "min": 0,
+      "max": 2147483647,
+      "bound_source": "wb13461..13463 normalizes all-zero GG/MIN/SEC to MIN30. Do not cap30: BOT33391 and BR537191 persist endless stage-1."
+    },
+    {
+      "key": "ISEC",
+      "kind": 1,
+      "default": 0,
+      "min": 0,
+      "max": 59,
+      "bound_source": "Normal normalized clock range; BOT/BR5 also write 59-seconds."
+    },
+    {
+      "key": "IHGG",
+      "kind": 1,
+      "default": 0,
+      "min": 0,
+      "max": 2147483647,
+      "bound_source": "Write-only integer summary cache; uk9513..9560 recomputes actual counts from hero bits1..158. Existing writer bugs prevent justified hard cap158: BR1 OR precedence HGG increment; BBy double HFS increment. Prefer derive on load/export."
+    },
+    {
+      "key": "IHFS",
+      "kind": 1,
+      "default": 0,
+      "min": 0,
+      "max": 2147483647,
+      "bound_source": "Write-only integer summary cache; uk9513..9560 recomputes actual counts from hero bits1..158. Existing writer bugs prevent justified hard cap158: BR1 OR precedence HGG increment; BBy double HFS increment. Prefer derive on load/export."
+    },
+    {
+      "key": "BLWJT",
+      "kind": 2,
+      "default": false,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "key": "BSWITCH",
+      "kind": 2,
+      "default": false,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "key": "SHGG",
+      "kind": 3,
+      "default": "",
+      "min": 0,
+      "max": 63,
+      "allowed_lengths": [
+        0,
+        63
+      ]
+    },
+    {
+      "key": "SHFS",
+      "kind": 3,
+      "default": "",
+      "min": 0,
+      "max": 63,
+      "allowed_lengths": [
+        0,
+        63
+      ]
+    },
+    {
+      "key": "SDS",
+      "kind": 3,
+      "default": "",
+      "min": 0,
+      "max": 63,
+      "allowed_lengths": [
+        0,
+        63
+      ]
+    },
+    {
+      "key": "SSLD[0]",
+      "kind": 3,
+      "default": "",
+      "min": 0,
+      "max": 63,
+      "allowed_lengths": [
+        0,
+        63
+      ]
+    },
+    {
+      "key": "SSLD[1]",
+      "kind": 3,
+      "default": "",
+      "min": 0,
+      "max": 63,
+      "allowed_lengths": [
+        0,
+        63
+      ]
+    },
+    {
+      "key": "SSLD[2]",
+      "kind": 3,
+      "default": "",
+      "min": 0,
+      "max": 63,
+      "allowed_lengths": [
+        0,
+        63
+      ]
+    },
+    {
+      "key": "SSLD[3]",
+      "kind": 3,
+      "default": "",
+      "min": 0,
+      "max": 63,
+      "allowed_lengths": [
+        0,
+        63
+      ]
+    },
+    {
+      "key": "SSLD[4]",
+      "kind": 3,
+      "default": "",
+      "min": 0,
+      "max": 63,
+      "allowed_lengths": [
+        0,
+        63
+      ]
+    },
+    {
+      "key": "SSLD[5]",
+      "kind": 3,
+      "default": "",
+      "min": 0,
+      "max": 63,
+      "allowed_lengths": [
+        0,
+        63
+      ]
+    },
+    {
+      "key": "SSLD[6]",
+      "kind": 3,
+      "default": "",
+      "min": 0,
+      "max": 63,
+      "allowed_lengths": [
+        0,
+        63
+      ]
+    },
+    {
+      "key": "SSLD[7]",
+      "kind": 3,
+      "default": "",
+      "min": 0,
+      "max": 63,
+      "allowed_lengths": [
+        0,
+        63
+      ]
+    }
+  ],
+  "mastery": {
+    "hero_indices": [
+      1,
+      158
+    ],
+    "start": "hero*3 (one-based)",
+    "record_length": 3,
+    "min": 0,
+    "max": 500
+  },
+  "excluded_keys": [
+    "BBAN",
+    "SSLD"
+  ],
+  "import_rule": "Only before gameplay initialization; full validation and checksum before commit; no account reads or writes."
+}

@@ -1,0 +1,26 @@
+{
+  "pipeline": "prepare_combat -> prepare_platform; before prepare_selection and free-policy",
+  "functions": {
+    "uW": "7c71082aa01afb93738affb7b90467f6f1d40c0b1d14da78495b33d26b01833e",
+    "sT": "035daa1957d43dab06d1acbb6fa599cf2d427d2c79945000658b408d13c6132c",
+    "xa": "f3975a1fd90df2c96052647ed5b1facf8f80984dc60c0109d287aa14a34d19ee",
+    "xd": "0b465253ccf9c47a175732b6556098b6aa7065b7b8764810e62af41b3593d11f",
+    "xi": "2a164ddeba25484062aa4401a6ecc24a76277a4b2ac9f6a32e9d81273bda35b7",
+    "yz": "87340f80c0fb4e96956f5e5506bfda57e9557a92e23104abd855ef9416dee591",
+    "zN": "7d1f36dc036e00fc6e4bca3a290d95c5d5dec33dbe6f2950554f5fdc03831815",
+    "BDV": "18204b263d6333cf4693d89182817768d682b9d88ccf7bbe85eb82e66bf7af49",
+    "zC": "31d1536333e2a17140e0743cfc646e7710474d8525e0575c56450a253430da1b",
+    "BBq": "cd156d74bf11e6e69aeafd9387be7a0776794c88dd625ea091dc87a4735c5f67",
+    "BB0": "7b64f1b2fbde27fd4cc4691d47d2e9c0575eac21e9f71462a42f4ad23514c10d",
+    "BB1": "0d8e72351ec3dcc287b4bfe86464874b0a0369496591657ad827c6857baf8db4",
+    "BB2": "93d5e4f9a0de6a327517f1e299eee5c8c87f86be3b9941f6145ef9361e34e868",
+    "BB3": "c659451ec56fb7abcddef052e0e07d20e4e674496b5f808b2eddc34a24a83e4c",
+    "BPS": "fe55cc58e9527c3edbdfcb538651ca40d3e395e2e4e5502d360907d08162907a"
+  },
+  "members": {
+    "Units\\ItemData.slk": "f51a2505c3d0f7322be40c70f2ba597aca141a3f6f529af5e10354cf7ec7144f",
+    "Units\\ItemStrings.txt": "961de28c980d16db0d367993f14d16f88362bdde482cef7ec703f0f6032ac077",
+    "Units\\AbilityData.slk": "8a978b34c0fe02f7a22d48cb33c8d2a3ca24c7e329dcd603622908767628cb8c",
+    "Units\\CampaignAbilityStrings.txt": "03da765bb054b3ae1bb1a071a43f294dd54ac52225ef14002258db0dd94dc57a"
+  }
+}

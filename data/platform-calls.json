@@ -1,0 +1,528 @@
+[
+  {
+    "function": "TT",
+    "line": 1002,
+    "calls": {
+      "DzAPI_Map_SaveServerValue": 1
+    }
+  },
+  {
+    "function": "TU",
+    "line": 1008,
+    "calls": {
+      "DzAPI_Map_GetServerValue": 1
+    }
+  },
+  {
+    "function": "TY",
+    "line": 1016,
+    "calls": {
+      "DzAPI_Map_SaveServerValue": 2
+    }
+  },
+  {
+    "function": "TZ",
+    "line": 1026,
+    "calls": {
+      "DzAPI_Map_GetServerValue": 1
+    }
+  },
+  {
+    "function": "Ta",
+    "line": 1039,
+    "calls": {
+      "DzAPI_Map_SaveServerValue": 1
+    }
+  },
+  {
+    "function": "Tg",
+    "line": 1045,
+    "calls": {
+      "DzAPI_Map_SaveServerValue": 1
+    }
+  },
+  {
+    "function": "Ty",
+    "line": 1050,
+    "calls": {
+      "RequestExtraBooleanData": 1
+    }
+  },
+  {
+    "function": "mr",
+    "line": 4972,
+    "calls": {
+      "DzAPI_Map_GetServerValue": 1
+    }
+  },
+  {
+    "function": "ms",
+    "line": 4981,
+    "calls": {
+      "DzAPI_Map_SaveServerValue": 1
+    }
+  },
+  {
+    "function": "s2",
+    "line": 5903,
+    "calls": {
+      "DzAPI_Map_IsRPGLadder": 1,
+      "DzAPI_Map_GetMatchType": 10
+    }
+  },
+  {
+    "function": "t5",
+    "line": 7041,
+    "calls": {
+      "DzAPI_Map_GetMapConfig": 6
+    }
+  },
+  {
+    "function": "t8",
+    "line": 7199,
+    "calls": {
+      "DzAPI_Map_GetMapConfig": 19,
+      "DzAPI_Map_Stat_SetStat": 12,
+      "DzAPI_Map_GetMapLevel": 2,
+      "DzAPI_Map_HasMallItem": 10,
+      "DzAPI_Map_GetGuildName": 2
+    }
+  },
+  {
+    "function": "uY",
+    "line": 8205,
+    "calls": {
+      "DzAPI_Map_GetMapLevel": 6,
+      "RequestExtraIntegerData": 3,
+      "DzAPI_Map_HasMallItem": 15,
+      "DzAPI_Map_GetLadderLevel": 1
+    }
+  },
+  {
+    "function": "un",
+    "line": 9641,
+    "calls": {
+      "DzAPI_Map_GetMapLevel": 1,
+      "DzAPI_Map_HasMallItem": 1,
+      "DzAPI_Map_Ladder_SetPlayerStat": 1,
+      "DzAPI_Map_Ladder_SetStat": 1,
+      "DzAPI_Map_Stat_SetStat": 3
+    }
+  },
+  {
+    "function": "ur",
+    "line": 9757,
+    "calls": {
+      "DzAPI_Map_GetGuildName": 8
+    }
+  },
+  {
+    "function": "us",
+    "line": 9763,
+    "calls": {
+      "DzAPI_Map_GetMapLevel": 1
+    }
+  },
+  {
+    "function": "uu",
+    "line": 9898,
+    "calls": {
+      "DzAPI_Map_IsBlueVIP": 1,
+      "RequestExtraBooleanData": 4,
+      "DzAPI_Map_GetMapLevelRank": 9,
+      "DzAPI_Map_GetMapLevel": 1,
+      "RequestExtraIntegerData": 3
+    }
+  },
+  {
+    "function": "uv",
+    "line": 9965,
+    "calls": {
+      "DzAPI_Map_GetMapConfig": 2
+    }
+  },
+  {
+    "function": "ux",
+    "line": 10047,
+    "calls": {
+      "DzAPI_Map_GetGuildName": 10,
+      "DzAPI_Map_HasMallItem": 12,
+      "RequestExtraBooleanData": 5
+    }
+  },
+  {
+    "function": "u1",
+    "line": 10310,
+    "calls": {
+      "DzAPI_Map_GetGuildName": 8
+    }
+  },
+  {
+    "function": "u7",
+    "line": 10547,
+    "calls": {
+      "DzAPI_Map_Ladder_SetStat": 2,
+      "DzAPI_Map_GetGuildName": 10,
+      "DzAPI_Map_HasMallItem": 12,
+      "RequestExtraBooleanData": 5,
+      "DzAPI_Map_GetMapLevel": 1,
+      "RequestExtraIntegerData": 2
+    }
+  },
+  {
+    "function": "vq",
+    "line": 11601,
+    "calls": {
+      "DzAPI_Map_HasMallItem": 1
+    }
+  },
+  {
+    "function": "vr",
+    "line": 11630,
+    "calls": {
+      "DzAPI_Map_GetMapConfig": 2
+    }
+  },
+  {
+    "function": "vu",
+    "line": 11669,
+    "calls": {
+      "DzAPI_Map_GetMapLevel": 10,
+      "DzAPI_Map_GetGuildName": 2,
+      "DzAPI_Map_HasMallItem": 5,
+      "DzAPI_Map_Ladder_SetPlayerStat": 1,
+      "DzAPI_Map_Ladder_SetStat": 1,
+      "DzAPI_Map_Stat_SetStat": 3
+    }
+  },
+  {
+    "function": "vv",
+    "line": 11701,
+    "calls": {
+      "DzAPI_Map_Ladder_SetStat": 1
+    }
+  },
+  {
+    "function": "v1",
+    "line": 11825,
+    "calls": {
+      "DzAPI_Map_HasMallItem": 10
+    }
+  },
+  {
+    "function": "v3",
+    "line": 11879,
+    "calls": {
+      "DzAPI_Map_HasMallItem": 2
+    }
+  },
+  {
+    "function": "v4",
+    "line": 11911,
+    "calls": {
+      "DzAPI_Map_HasMallItem": 2,
+      "DzAPI_Map_GetMapLevel": 1,
+      "DzAPI_Map_Stat_SetStat": 3
+    }
+  },
+  {
+    "function": "v8",
+    "line": 12214,
+    "calls": {
+      "DzAPI_Map_HasMallItem": 7
+    }
+  },
+  {
+    "function": "wB",
+    "line": 12242,
+    "calls": {
+      "DzAPI_Map_HasMallItem": 1
+    }
+  },
+  {
+    "function": "wK",
+    "line": 12613,
+    "calls": {
+      "DzAPI_Map_HasMallItem": 9
+    }
+  },
+  {
+    "function": "wL",
+    "line": 12662,
+    "calls": {
+      "DzAPI_Map_HasMallItem": 1
+    }
+  },
+  {
+    "function": "wR",
+    "line": 12755,
+    "calls": {
+      "DzAPI_Map_HasMallItem": 2,
+      "DzAPI_Map_GetMapLevel": 1,
+      "DzAPI_Map_Stat_SetStat": 3
+    }
+  },
+  {
+    "function": "wW",
+    "line": 13055,
+    "calls": {
+      "DzAPI_Map_GetGuildName": 8,
+      "DzAPI_Map_HasMallItem": 9
+    }
+  },
+  {
+    "function": "wZ",
+    "line": 13241,
+    "calls": {
+      "DzAPI_Map_GetGuildName": 8,
+      "DzAPI_Map_HasMallItem": 9
+    }
+  },
+  {
+    "function": "wb",
+    "line": 13411,
+    "calls": {
+      "DzAPI_Map_Stat_SetStat": 5,
+      "DzAPI_Map_GetMapLevel": 1
+    }
+  },
+  {
+    "function": "ws",
+    "line": 13637,
+    "calls": {
+      "DzAPI_Map_Ladder_SetStat": 1
+    }
+  },
+  {
+    "function": "yH",
+    "line": 15795,
+    "calls": {
+      "DzAPI_Map_Ladder_SetStat": 1
+    }
+  },
+  {
+    "function": "zB",
+    "line": 17308,
+    "calls": {
+      "DzAPI_Map_HasMallItem": 1
+    }
+  },
+  {
+    "function": "BBq",
+    "line": 20231,
+    "calls": {
+      "DzAPI_Map_HasMallItem": 2,
+      "DzAPI_Map_Ladder_SetStat": 2
+    }
+  },
+  {
+    "function": "BBy",
+    "line": 21041,
+    "calls": {
+      "DzAPI_Map_HasMallItem": 1
+    }
+  },
+  {
+    "function": "BDV",
+    "line": 25191,
+    "calls": {
+      "DzAPI_Map_HasMallItem": 1
+    }
+  },
+  {
+    "function": "BOH",
+    "line": 33163,
+    "calls": {
+      "DzAPI_Map_Ladder_SetPlayerStat": 1,
+      "DzAPI_Map_Ladder_SetStat": 1
+    }
+  },
+  {
+    "function": "BOK",
+    "line": 33180,
+    "calls": {
+      "DzAPI_Map_Ladder_SetPlayerStat": 1,
+      "DzAPI_Map_Ladder_SetStat": 1
+    }
+  },
+  {
+    "function": "BOS",
+    "line": 33334,
+    "calls": {
+      "DzAPI_Map_Ladder_SetPlayerStat": 1,
+      "DzAPI_Map_Ladder_SetStat": 1
+    }
+  },
+  {
+    "function": "BOT",
+    "line": 33345,
+    "calls": {
+      "DzAPI_Map_Ladder_SetPlayerStat": 1,
+      "DzAPI_Map_Ladder_SetStat": 1,
+      "DzAPI_Map_GetMapLevel": 1
+    }
+  },
+  {
+    "function": "BOa",
+    "line": 33573,
+    "calls": {
+      "DzAPI_Map_Ladder_SetPlayerStat": 1,
+      "DzAPI_Map_Ladder_SetStat": 1
+    }
+  },
+  {
+    "function": "BOb",
+    "line": 33584,
+    "calls": {
+      "DzAPI_Map_Ladder_SetPlayerStat": 1,
+      "DzAPI_Map_Ladder_SetStat": 1
+    }
+  },
+  {
+    "function": "BOh",
+    "line": 33678,
+    "calls": {
+      "DzAPI_Map_Ladder_SetPlayerStat": 1,
+      "DzAPI_Map_Ladder_SetStat": 1
+    }
+  },
+  {
+    "function": "BOi",
+    "line": 33689,
+    "calls": {
+      "DzAPI_Map_Ladder_SetPlayerStat": 1,
+      "DzAPI_Map_Ladder_SetStat": 1
+    }
+  },
+  {
+    "function": "BOo",
+    "line": 33782,
+    "calls": {
+      "DzAPI_Map_Ladder_SetPlayerStat": 1,
+      "DzAPI_Map_Ladder_SetStat": 1
+    }
+  },
+  {
+    "function": "BOp",
+    "line": 33793,
+    "calls": {
+      "DzAPI_Map_Ladder_SetPlayerStat": 1,
+      "DzAPI_Map_Ladder_SetStat": 1
+    }
+  },
+  {
+    "function": "BOv",
+    "line": 33886,
+    "calls": {
+      "DzAPI_Map_Ladder_SetPlayerStat": 1,
+      "DzAPI_Map_Ladder_SetStat": 1
+    }
+  },
+  {
+    "function": "BOw",
+    "line": 33897,
+    "calls": {
+      "DzAPI_Map_Ladder_SetPlayerStat": 1,
+      "DzAPI_Map_Ladder_SetStat": 1
+    }
+  },
+  {
+    "function": "BO9",
+    "line": 34079,
+    "calls": {
+      "DzAPI_Map_HasMallItem": 4
+    }
+  },
+  {
+    "function": "BPl",
+    "line": 34889,
+    "calls": {
+      "DzAPI_Map_HasMallItem": 1
+    }
+  },
+  {
+    "function": "BQg",
+    "line": 35752,
+    "calls": {
+      "DzAPI_Map_HasMallItem": 2
+    }
+  },
+  {
+    "function": "BQm",
+    "line": 35831,
+    "calls": {
+      "DzAPI_Map_HasMallItem": 1
+    }
+  },
+  {
+    "function": "BQp",
+    "line": 35968,
+    "calls": {
+      "DzAPI_Map_GetMapLevel": 27,
+      "RequestExtraIntegerData": 7,
+      "RequestExtraBooleanData": 1,
+      "DzAPI_Map_HasMallItem": 2,
+      "DzAPI_Map_GetGuildName": 2
+    }
+  },
+  {
+    "function": "BRS",
+    "line": 36543,
+    "calls": {
+      "DzAPI_Map_HasMallItem": 1
+    }
+  },
+  {
+    "function": "BRV",
+    "line": 36559,
+    "calls": {
+      "DzAPI_Map_HasMallItem": 1
+    }
+  },
+  {
+    "function": "BRc",
+    "line": 36615,
+    "calls": {
+      "DzAPI_Map_HasMallItem": 1
+    }
+  },
+  {
+    "function": "BRf",
+    "line": 36732,
+    "calls": {
+      "RequestExtraIntegerData": 1,
+      "DzAPI_Map_HasMallItem": 1
+    }
+  },
+  {
+    "function": "BRz",
+    "line": 36988,
+    "calls": {
+      "DzAPI_Map_HasMallItem": 2
+    }
+  },
+  {
+    "function": "BR1",
+    "line": 37061,
+    "calls": {
+      "DzAPI_Map_HasMallItem": 2
+    }
+  },
+  {
+    "function": "BR5",
+    "line": 37175,
+    "calls": {
+      "DzAPI_Map_GetMapLevel": 1
+    }
+  },
+  {
+    "function": "BSS",
+    "line": 37753,
+    "calls": {
+      "DzAPI_Map_HasMallItem": 2,
+      "DzAPI_Map_GetMapLevel": 1,
+      "RequestExtraIntegerData": 2,
+      "DzAPI_Map_GetGuildName": 2
+    }
+  }
+]

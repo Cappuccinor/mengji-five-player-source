@@ -1,0 +1,25 @@
+{
+  "namespace": "MJ5_LOCAL_V1",
+  "clear_scale": {
+    "source": "GGC",
+    "meaning": "本版真实通关次数",
+    "benefit_cap": 100,
+    "changes_saved_GGC": false,
+    "notes": "100仅为福利计算上限；不表示平台等级，不回写或截断真实通关存档。原等级门槛4/6/8/20等改为明确的本版通关门槛。"
+  },
+  "presets": {
+    "guild": {"default": 1, "values": {"0": "关闭", "1": "合作组：新英雄吸血+1、免伤+1%", "2": "星悦组：免费专属礼包入口"}, "exclusive": true},
+    "return": {"default": 2, "values": {"0": "关闭", "1": "旧回流福利：掉落率+30", "2": "近期回流福利：掉落率+100"}, "exclusive": true}
+  },
+  "defaults": {"welcome_benefits": true, "gift_benefits": true, "cosmetics": true, "ladder_reward": true},
+  "welcome_benefits": {"BLUE_BONUS": "金钱+2333、英雄增伤+5%", "APPRECIATOR": "木材+1", "COLLECTOR": "掉落率+20"},
+  "gift_keys": ["RATING_GIFT", "REMASTER_GIFT", "VOTE_GIFT"],
+  "cosmetic_keys": ["RANK_COSMETIC", "STAR_COSMETIC", "NAMED_COSMETIC", "DONATION_COSMETIC"],
+  "donation_cosmetic": {"research": "R008", "level": 3, "source": "原打赏25/50/100次入口，非成长", "writes_progress": false},
+  "unknown_key": false,
+  "room_context_retained": ["DzAPI_Map_GetMatchType", "DzAPI_Map_IsRPGLadder"],
+  "identity_rule": "不伪造平台等级、公会、蓝V、鉴赏家、收藏/回流身份或历史排名。旧身份文案替换为本版免费；外观不代表历史排名。",
+  "DCGR": "按实际DCG记录最高关卡，去除旧平台等级条件；不虚构榜位。",
+  "request45": "旧账号总局数不继承。使用真实GGC时明确显示本版通关次数，不能标总局数。",
+  "integration": "helpers follow roster + progress + free_rules; apply_account_policy consumes prepare_platform bodies after mall calls become MJ_ContentAvailable; outer free_stage pins all original affected bodies and owns per-session claim/start/pet guards."
+}

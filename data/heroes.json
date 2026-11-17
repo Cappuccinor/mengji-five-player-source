@@ -1,0 +1,3672 @@
+[
+  {
+    "id": "U00S",
+    "rawcode": 1429221459,
+    "name": "地图作者",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNDark+Holy.blp",
+    "icon_source": "Art",
+    "description": "一种神秘的英雄，能学习到霜冻护甲，霜冻新星，黑暗仪式和死亡凋零技能。\n\n能攻击地面和空中单位。",
+    "skills": [
+      {
+        "id": "A0HU",
+        "name": "英被-作者特权",
+        "description": "其实这个作者玩自己做的游戏从来都不想去调数值或者给自己福利什么的，那样总觉得失去了游戏乐趣。但是为了完成最后一个英雄——地图作者，还是稍微给自己一点点福利吧（其实是给你们的）",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H002",
+    "rawcode": 1211117618,
+    "name": "黄金游侠",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNSylvanusWindrunner.blp",
+    "icon_source": "Art",
+    "description": "远程英雄，起始默认获得\n耐力成长：5至15\n敏捷成长：8至20\n力量成长：5至15\n天赋：杀怪获得额外10金钱",
+    "skills": [
+      {
+        "id": "A00K",
+        "name": "英被-黄金猎人",
+        "description": "杀敌获得额外20金钱",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H007",
+    "rawcode": 1211117623,
+    "name": "银月游侠",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNtouxiang7.blp",
+    "icon_source": "Art",
+    "description": "远程英雄，平台等级6可使用\n耐力成长：6至16\n敏捷成长：9至22\n力量成长：6至16\n天赋：暴击率提高10%",
+    "skills": [
+      {
+        "id": "A012",
+        "name": "英被-更高暴击率",
+        "description": "暴击率+20%",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H008",
+    "rawcode": 1211117624,
+    "name": "黑暗游侠",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNtouxiang6.blp",
+    "icon_source": "Art",
+    "description": "远程英雄，平台等级12可使用\n耐力成长：7至17\n敏捷成长：10至24\n力量成长：7至17\n天赋：杀死敌人有几率永久增加英雄等级点攻击力",
+    "skills": [
+      {
+        "id": "A01L",
+        "name": "英被-死亡之力",
+        "description": "杀死敌人有几率永久增加英雄等级点攻击力",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H009",
+    "rawcode": 1211117625,
+    "name": "铂金游侠",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNBloodElf.blp",
+    "icon_source": "Art",
+    "description": "远程英雄，商城出售可使用\n耐力成长：9至19\n敏捷成长：12至28\n力量成长：9至19\n天赋：未暴击的攻击会提高2%暴击率，攻击暴击后重置",
+    "skills": [
+      {
+        "id": "A01K",
+        "name": "英被-愈战愈勇",
+        "description": "未暴击的攻击会提高5%暴击率，攻击暴击后重置",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H014",
+    "rawcode": 1211117876,
+    "name": "丛林游侠",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNAssassin.blp",
+    "icon_source": "Art",
+    "description": "远程英雄，？？？？可使用\n耐力成长：12至22\n敏捷成长：15至34\n力量成长：13至23\n天赋：攻击有几率短暂提高3%增伤或1%免伤，可以叠加",
+    "skills": [
+      {
+        "id": "A01Q",
+        "name": "英被-英勇",
+        "description": "攻击/被攻击有几率短暂增伤+5%/免伤+3%，可以叠加",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O000",
+    "rawcode": 1328558128,
+    "name": "黄金剑圣",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNHeroBlademaster.blp",
+    "icon_source": "Art",
+    "description": "近战英雄，起始默认获得\n耐力成长：8至20\n敏捷成长：5至15\n力量成长：8至15\n天赋：杀怪获得额外10金钱",
+    "skills": [
+      {
+        "id": "A00K",
+        "name": "英被-黄金猎人",
+        "description": "杀敌获得额外20金钱",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O003",
+    "rawcode": 1328558131,
+    "name": "银甲勇士",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNtouxiang2.blp",
+    "icon_source": "Art",
+    "description": "近战英雄，平台等级6可使用\n耐力成长：9至22\n敏捷成长：6至16\n力量成长：9至17\n天赋：拥有额外2点护甲值",
+    "skills": [
+      {
+        "id": "A012",
+        "name": "英被-更高暴击率",
+        "description": "暴击率+20%",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O002",
+    "rawcode": 1328558130,
+    "name": "狂绿斧王",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNtouxiang3.blp",
+    "icon_source": "Art",
+    "description": "近战英雄\n耐力成长：18\n敏捷成长：5\n力量成长：15\n天赋：新生强壮",
+    "skills": [
+      {
+        "id": "A01J",
+        "name": "英被-新生强壮",
+        "description": "每次死亡复活后20秒内护甲+50，免伤+50%",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O004",
+    "rawcode": 1328558132,
+    "name": "钻石国王",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNtouxiang9.blp",
+    "icon_source": "Art",
+    "description": "近战英雄，商城出售可使用\n耐力成长：13至30\n敏捷成长：10至20\n力量成长：10至19\n天赋：免伤提高3%，血量低于30%变为岩石形态",
+    "skills": [
+      {
+        "id": "A015",
+        "name": "英被-钻石皮肤",
+        "description": "血量低于30%免伤+20%，护甲+20",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O00C",
+    "rawcode": 1328558147,
+    "name": "狂暴战士",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNtouxiang5.blp",
+    "icon_source": "Art",
+    "description": "近战英雄，？？？？可使用\n耐力成长：17至38\n敏捷成长：13至23\n力量成长：15至29\n天赋：被攻击有几率暂时提高护甲值与攻击力，可叠加",
+    "skills": [
+      {
+        "id": "A01Q",
+        "name": "英被-英勇",
+        "description": "攻击/被攻击有几率短暂增伤+5%/免伤+3%，可以叠加",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H01T",
+    "rawcode": 1211117908,
+    "name": "日耀城法师",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNJaina.blp",
+    "icon_source": "Art",
+    "description": "远程英雄，商城出售可使用\n耐力成长：12至22\n敏捷成长：15至34\n力量成长：13至23\n天赋：攻击附带爆裂溅射，增伤+10%",
+    "skills": [
+      {
+        "id": "A01R",
+        "name": "英被-爆裂攻击",
+        "description": "所有攻击都会造成额外250码40%范围伤害",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H011",
+    "rawcode": 1211117873,
+    "name": "时空兵团",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNMarine.blp",
+    "icon_source": "Art",
+    "description": "远程英雄\n耐力成长：5\n敏捷成长：14\n力量成长：12\n天赋：镜像",
+    "skills": [
+      {
+        "id": "A02X",
+        "name": "英被-镜像",
+        "description": "攻击有几率召唤自身的一个镜像，持续5秒\n最多同时拥有6个镜像",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H01P",
+    "rawcode": 1211117904,
+    "name": "弟弟蛇",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNHydralisk.blp",
+    "icon_source": "Art",
+    "description": "远程英雄\n耐力成长：8\n敏捷成长：8\n力量成长：8\n天赋：虫族进化",
+    "skills": [
+      {
+        "id": "A056",
+        "name": "英被-虫族进化",
+        "description": "杀死敌人有几率永久使耐力、敏捷、力量任意属性+1",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H01M",
+    "rawcode": 1211117901,
+    "name": "堕落大魔法师",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNMedivh.blp",
+    "icon_source": "Art",
+    "description": "远程英雄，？？？？可使用\n耐力成长：20至30\n敏捷成长：28至60\n力量成长：22至32\n天赋：攻击有几率暂时增加暴击率和暴击伤害，可叠加",
+    "skills": [
+      {
+        "id": "A055",
+        "name": "英被-暴躁",
+        "description": "攻击有几率暂时使暴击率+1%或暴击伤害+0.05倍，持续10秒，可叠加",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O009",
+    "rawcode": 1328558137,
+    "name": "佛大锤",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNGnollKing.blp",
+    "icon_source": "Art",
+    "description": "近战英雄\n耐力成长：20\n敏捷成长：4\n力量成长：8\n天赋：铁甲反伤",
+    "skills": [
+      {
+        "id": "A05A",
+        "name": "英被-铁甲反伤",
+        "description": "受到攻击有30%几率对攻击者造成【5x耐力+100】点伤害",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H01S",
+    "rawcode": 1211117907,
+    "name": "九九新炎魔",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNHeroAvatarOfFlame.blp",
+    "icon_source": "Art",
+    "description": "远程英雄\n耐力成长：4\n敏捷成长：13\n力量成长：12\n天赋：炎爆",
+    "skills": [
+      {
+        "id": "A05B",
+        "name": "英被-炎爆",
+        "description": "杀死敌人会发生爆炸，对周围200码内所有敌人造成【敏捷+50】点伤害",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H016",
+    "rawcode": 1211117878,
+    "name": "小小火枪手",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNRifleman.blp",
+    "icon_source": "Art",
+    "description": "远程英雄\n耐力成长：2\n敏捷成长：25\n力量成长：2\n天赋：神秘之力",
+    "skills": [
+      {
+        "id": "A057",
+        "name": "英被-神秘之力",
+        "description": "攻击有极小概率使自身的攻击力+500%，持续5秒",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O00E",
+    "rawcode": 1328558149,
+    "name": "狮子",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNTimberWolf.blp",
+    "icon_source": "Art",
+    "description": "近战英雄\n耐力成长：11\n敏捷成长：6\n力量成长：13\n天赋：咆哮",
+    "skills": [
+      {
+        "id": "A05C",
+        "name": "英被-咆哮",
+        "description": "增加周围友军单位500%的攻击力，持续10秒",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H01D",
+    "rawcode": 1211117892,
+    "name": "银河圣装狗子",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNLament.blp",
+    "icon_source": "Art",
+    "description": "远程英雄，？？？？可使用\n耐力成长：16至26\n敏捷成长：22至48\n力量成长：17至27\n天赋：杀死敌人有几率随机加属性",
+    "skills": [
+      {
+        "id": "A05D",
+        "name": "英被-机甲进化",
+        "description": "杀死敌人有几率永久使耐力、敏捷、力量任意属性+5",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H019",
+    "rawcode": 1211117881,
+    "name": "大白腿",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNSorceress.blp",
+    "icon_source": "Art",
+    "description": "远程英雄\n耐力成长：5\n敏捷成长：7\n力量成长：12\n天赋：血色冥想",
+    "skills": [
+      {
+        "id": "A05E",
+        "name": "英被-血色冥想",
+        "description": "天生法力值上限为1000\n回魔速度为其他英雄的2倍",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H018",
+    "rawcode": 1211117880,
+    "name": "金发法师",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNsaber.blp",
+    "icon_source": "Art",
+    "description": "远程英雄\n耐力成长：7\n敏捷成长：9\n力量成长：13\n天赋：群体回魔",
+    "skills": [
+      {
+        "id": "A05F",
+        "name": "英被-群体回魔",
+        "description": "恢复全图所有友军100点法力值",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H01N",
+    "rawcode": 1211117902,
+    "name": "黑市商人",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNZombie.blp",
+    "icon_source": "Art",
+    "description": "远程英雄，？？？？可使用\n耐力成长：33至43\n敏捷成长：45至94\n力量成长：37至47\n天赋：攻击有几率召唤一个镜像",
+    "skills": [
+      {
+        "id": "A05G",
+        "name": "英被-内部折扣",
+        "description": "从商店购买技能书和药水可以返还70%金钱",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H01A",
+    "rawcode": 1211117889,
+    "name": "石头",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNblackball.blp",
+    "icon_source": "Art",
+    "description": "远程英雄，？？？？可使用\n耐力成长：16至26\n敏捷成长：22至48\n力量成长：17至27\n天赋：攻击有几率召唤一个复制镜像出来",
+    "skills": [
+      {
+        "id": "A06C",
+        "name": "英被-石头没有脑",
+        "description": "石头天生不擅长魔法，法力值上限低，回魔速度慢\n但是天生拥有极高的生命值和很快的生命恢复",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O00G",
+    "rawcode": 1328558151,
+    "name": "退休的建造者",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNPeasant.blp",
+    "icon_source": "Art",
+    "description": "近战英雄\n耐力成长：9\n敏捷成长：6\n力量成长：7\n天赋：建造箭塔",
+    "skills": [
+      {
+        "id": "Ahrp",
+        "name": "修理",
+        "description": "修理建筑物和机械单位，需要消耗资源。",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H015",
+    "rawcode": 1211117877,
+    "name": "步兵",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNFootman.blp",
+    "icon_source": "Art",
+    "description": "近战英雄\n耐力成长：17\n敏捷成长：6\n力量成长：12\n天赋：防御",
+    "skills": [
+      {
+        "id": "Adef",
+        "name": "英被-防御",
+        "description": "激活防御：\n拥有70%的概率反弹远程和魔法攻击\n受到的远程和魔法攻击减少90%的伤害\n移动速度降低80%",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H01C",
+    "rawcode": 1211117891,
+    "name": "性感刺客",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNtouxiang1.blp",
+    "icon_source": "Art",
+    "description": "近战英雄\n耐力成长：3\n敏捷成长：17\n力量成长：7\n天赋：刺客该有的攻速",
+    "skills": [
+      {
+        "id": "A06D",
+        "name": "英被-刺客该有的攻速",
+        "description": "性感刺客天生拥有非常夸张的攻击速度",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H01B",
+    "rawcode": 1211117890,
+    "name": "城市喷泉",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNMoonWell.blp",
+    "icon_source": "Art",
+    "description": "远程英雄，？？？？可使用\n耐力成长：38至48\n敏捷成长：56至116\n力量成长：48至58\n天赋：攻击有几率召唤一个镜像",
+    "skills": [
+      {
+        "id": "A06Q",
+        "name": "英被-泉水之力",
+        "description": "",
+        "text_resolved": true
+      },
+      {
+        "id": "A06R",
+        "name": "英被-泉水之力",
+        "description": "能加快周围友军单位的魔法值恢复速度。\n\n等级 1 -能缓慢地加快周围友军的魔法值恢复速度。\n等级 2 -能稍快地加快周围友军的魔法值恢复速度。\n等级 3 -能迅速地加快周围友军的魔法值恢复速度。",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H017",
+    "rawcode": 1211117879,
+    "name": "黄金蟑螂",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNCryptFiend.blp",
+    "icon_source": "Art",
+    "description": "远程英雄\n耐力成长：13\n敏捷成长：14\n力量成长：8\n天赋：钻地",
+    "skills": [
+      {
+        "id": "A07J",
+        "name": "英被-钻地",
+        "description": "蟑螂钻入地下并变为无敌，在此期间它能以每秒恢复30%生命值，持续3秒\n钻地结束之后7秒内继续每秒恢复30%生命值\n在此期间也不能进行攻击不能做任何动作",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O007",
+    "rawcode": 1328558135,
+    "name": "半神",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNKeeperGhostBlue.blp",
+    "icon_source": "Art",
+    "description": "远程英雄\n耐力成长：8\n敏捷成长：6\n力量成长：13\n天赋：无冷却",
+    "skills": [
+      {
+        "id": "A07E",
+        "name": "英被-无冷却",
+        "description": "所有主动技能不再拥有冷却时间",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O005",
+    "rawcode": 1328558133,
+    "name": "恶魔猎手",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNtouxiang10.blp",
+    "icon_source": "Art",
+    "description": "？？英雄，？？？可使用\n耐力成长：??至??\n敏捷成长：??至??\n力量成长：??至??\n天赋：？？？？",
+    "skills": [
+      {
+        "id": "A07H",
+        "name": "英被-恶魔猎手",
+        "description": "恶魔猎手天生拥有比其他英雄更高的三围和成长，拥有更高的生命值、法力值以及更快的攻击速度和移动速度",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O006",
+    "rawcode": 1328558134,
+    "name": "萨格拉斯",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNtouxiang8.blp",
+    "icon_source": "Art",
+    "description": "？？英雄，？？？可使用\n耐力成长：??至??\n敏捷成长：??至??\n力量成长：??至??\n天赋：？？？？",
+    "skills": [
+      {
+        "id": "A065",
+        "name": "英被-冒火皮肤",
+        "description": "每秒对周围400码内所有敌人造成伤害，距离自己越近的伤害越高，每秒伤害为【0.3~3x(力量+耐力)】",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H00T",
+    "rawcode": 1211117652,
+    "name": "瓦格里",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNBTN0141.blp",
+    "icon_source": "Art",
+    "description": ",",
+    "skills": [
+      {
+        "id": "A07M",
+        "name": "英被-赎罪",
+        "description": "复活周围6个友军单位。",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H00A",
+    "rawcode": 1211117633,
+    "name": "月刃骑士",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNHuntress.blp",
+    "icon_source": "Art",
+    "description": "一位神秘的英雄，特别擅长于远程攻击。他能学到暴风雪、召唤水元素、辉煌光环和群体传送魔法。\n\n能攻击地面和空中单位。",
+    "skills": [
+      {
+        "id": "A07O",
+        "name": "英被-弹射攻击",
+        "description": "月刃骑士攻击会弹射，从而伤害到敌人其他的单位，最多弹射3个单位，每次弹射减少15%伤害",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O00H",
+    "rawcode": 1328558152,
+    "name": "投石车",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNDemolisher.blp",
+    "icon_source": "Art",
+    "description": "灵巧型的英雄，擅长于医疗和巫毒魔法。能学习到医疗波，妖术，毒蛇守卫和巫毒技能。\n\n能攻击地面和空中单位。",
+    "skills": [
+      {
+        "id": "Abof",
+        "name": "英被-燃烧之油",
+        "description": "攻击能够点燃地面，燃烧地面上的敌人，每秒造成【4x力量】的伤害",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H00F",
+    "rawcode": 1211117638,
+    "name": "新手村史莱姆",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNIceShard.blp",
+    "icon_source": "Art",
+    "description": "战士型英雄，特别擅长于保护自己周围的部队，能学习到神圣之光、神圣护甲、专注光环和复活这四项技能。\n\n能攻击地面单位。",
+    "skills": [
+      {
+        "id": "A07Q",
+        "name": "英被-茁壮成长",
+        "description": "新手村史莱姆会游戏时间而成长！\n随着级别提升，体积越来越大，移动速度和攻击速度越来越慢，越来越笨重！",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H005",
+    "rawcode": 1211117621,
+    "name": "老油条史莱姆",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNIceShard.blp",
+    "icon_source": "Art",
+    "description": "战士型英雄，特别擅长于保护自己周围的部队，能学习到神圣之光、神圣护甲、专注光环和复活这四项技能。\n\n能攻击地面单位。",
+    "skills": [
+      {
+        "id": "A07R",
+        "name": "英被-逆生长",
+        "description": "老油条史莱姆会游戏时间而退化！\n随着级别提升，体积越来越小，移动速度和攻击速度越来越快，三围会逐渐降低！\n老油条史莱姆死亡后会分裂成8只小史莱姆！",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H01L",
+    "rawcode": 1211117900,
+    "name": "微型金字塔",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNjinzita.blp",
+    "icon_source": "Art",
+    "description": "远程英雄\n耐力成长：15\n敏捷成长：8\n力量成长：8\n天赋：微型方尖塔",
+    "skills": [
+      {
+        "id": "A07W",
+        "name": "英被-微型方尖塔",
+        "description": "召唤出一个水元素来帮大魔法师进行战斗。\n持续60秒。\n\n能攻击地面和空中单位。\n\n等级 1 - 525点生命值，18-22点的伤害。\n等级 2 - 675点生命值，31-39点的伤害。\n等级 3 - 900点生命值，41-49点的伤害。",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "U002",
+    "rawcode": 1429221426,
+    "name": "黄金大尖脸",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNbubble13.blp",
+    "icon_source": "Art",
+    "description": "一种神秘的英雄，能学习到霜冻护甲，霜冻新星，黑暗仪式和死亡凋零技能。\n\n能攻击地面和空中单位。",
+    "skills": [
+      {
+        "id": "A09K",
+        "name": "英被-靠脸吸引",
+        "description": "永久控制某个敌方单位，使其变为无敌并攻击力提高1000%，存在180秒\n可以作用于精英变异怪（会获得1金砖）\n不能作用于Boss",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "U004",
+    "rawcode": 1429221428,
+    "name": "大灰狼",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNDireWolf.blp",
+    "icon_source": "Art",
+    "description": "一种神秘的英雄，能学习到霜冻护甲，霜冻新星，黑暗仪式和死亡凋零技能。\n\n能攻击地面和空中单位。",
+    "skills": [
+      {
+        "id": "A09M",
+        "name": "英被-首领克星",
+        "description": "击杀变异精英怪可以额外获得1个金砖\n击杀Boss获得的金钱奖励和三围翻倍\n对变异精英怪和Boss的伤害提高30%",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H00D",
+    "rawcode": 1211117636,
+    "name": "沙之币",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNMGExchange.blp",
+    "icon_source": "Art",
+    "description": "一位神秘的英雄，特别擅长于远程攻击。他能学到暴风雪、召唤水元素、辉煌光环和群体传送魔法。\n\n能攻击地面和空中单位。",
+    "skills": [
+      {
+        "id": "A09W",
+        "name": "英被-致富者",
+        "description": "队友击杀敌人自己会得到【3x关卡】金钱\n每60秒获得【300x关卡】金钱",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H00B",
+    "rawcode": 1211117634,
+    "name": "机甲大天使",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNwings3.blp",
+    "icon_source": "Art",
+    "description": "战士型英雄，特别擅长于冲锋陷阵。能学习到风暴之锤、雷霆一击、重击和天神下凡。\n\n能攻击地面单位。",
+    "skills": [
+      {
+        "id": "A0AC",
+        "name": "英被-神符祝福",
+        "description": "立刻创造一个随机神符在脚下\n\n机甲大天使天生拥有极高的基础攻击力",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H00V",
+    "rawcode": 1211117654,
+    "name": "上一代铁匠",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNBTN0127.blp",
+    "icon_source": "Art",
+    "description": "战士型英雄，特别擅长于冲锋陷阵。能学习到风暴之锤、雷霆一击、重击和天神下凡。\n\n能攻击地面单位。",
+    "skills": [
+      {
+        "id": "A0IQ",
+        "name": "英被-打铁还需自身硬",
+        "description": "升级装备100%成功不会失败",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O00I",
+    "rawcode": 1328558153,
+    "name": "瓜宗",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNPeon.blp",
+    "icon_source": "Art",
+    "description": "一种灵活的英雄，特别擅长于一对一。能学习到镜像、疾步风、致命一击和剑刃风暴这四种技能。\n\n能攻击地面单位。",
+    "skills": [
+      {
+        "id": "Ahrp",
+        "name": "修理",
+        "description": "修理建筑物和机械单位，需要消耗资源。",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H00E",
+    "rawcode": 1211117637,
+    "name": "炸死你",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNGoblinSapper.blp",
+    "icon_source": "Art",
+    "description": "远程英雄\n耐力成长：6\n敏捷成长：8\n力量成长：11\n天赋：埋雷",
+    "skills": [
+      {
+        "id": "A0CP",
+        "name": "英被-埋雷",
+        "description": "召唤出一个水元素来帮大魔法师进行战斗。\n持续60秒。\n\n能攻击地面和空中单位。\n\n等级 1 - 525点生命值，18-22点的伤害。\n等级 2 - 675点生命值，31-39点的伤害。\n等级 3 - 900点生命值，41-49点的伤害。",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H00X",
+    "rawcode": 1211117656,
+    "name": "菜鸡狗",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNCritterChicken.blp",
+    "icon_source": "Art",
+    "description": ",",
+    "skills": [
+      {
+        "id": "A0EO",
+        "name": "英被-菜鸡变凤凰",
+        "description": "菜鸡狗每次死亡复活后永久三围+6，体积也变大一点点，同时给予金钱补偿（与剩余时间挂钩）",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O00J",
+    "rawcode": 1328558154,
+    "name": "泰瑞尔",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNBTN0133.blp",
+    "icon_source": "Art",
+    "description": "近战英雄，平台等级6可使用\n耐力成长：9至22\n敏捷成长：6至16\n力量成长：9至17\n天赋：拥有额外2点护甲值",
+    "skills": [
+      {
+        "id": "A0ER",
+        "name": "英被-奉上灵魂",
+        "description": "为周围友军提供一定额外的护甲。\n\n等级 1 - 增加1点的护甲。\n等级 2 - 增加3点的护甲。\n等级 3 - 增加4点的护甲。",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "E00P",
+    "rawcode": 1160786000,
+    "name": "蓝色闪光",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNHeroWarden.blp",
+    "icon_source": "Art",
+    "description": "近战英雄\n耐力成长：6\n敏捷成长：14\n力量成长：10\n天赋：闪烁",
+    "skills": [
+      {
+        "id": "A0EX",
+        "name": "英被-闪烁",
+        "description": "能让守望者瞬间移动一段距离，从而逃离战场或者快速加入战斗。\n\n等级 1 -10秒魔法施放间隔时间，消耗50点魔法。\n等级 2 -10秒魔法施放间隔时间，消耗10点魔法。\n等级 3 -1秒魔法施放间隔时间，消耗10点魔法。",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O00K",
+    "rawcode": 1328558155,
+    "name": "呜路哇啦",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNMurgulTideWarrior.blp",
+    "icon_source": "Art",
+    "description": "一种灵活的英雄，特别擅长于一对一。能学习到镜像、疾步风、致命一击和剑刃风暴这四种技能。\n\n能攻击地面单位。",
+    "skills": [
+      {
+        "id": "A0EY",
+        "name": "英被-鱼人统治世界",
+        "description": "每次攻击偷取目标【0.2x敏捷】生命值，永久转化为自己的生命值上限",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H00Y",
+    "rawcode": 1211117657,
+    "name": "大门",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNChime.blp",
+    "icon_source": "Art",
+    "description": ",",
+    "skills": [
+      {
+        "id": "A0EZ",
+        "name": "英被-打不破的门",
+        "description": "大门没有大脑，所以法力值会持续不断的减少\n但是拥有天生极高的护甲和非常优秀的三围成长",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H01I",
+    "rawcode": 1211117897,
+    "name": "古术使者",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNSpiritWalker.blp",
+    "icon_source": "Art",
+    "description": "战士型英雄，特别擅长于保护自己周围的部队，能学习到神圣之光，神圣护甲，专注光环和复活这四项技能。\n\n能攻击地面单位。",
+    "skills": [
+      {
+        "id": "A0F0",
+        "name": "英被-钻研学术",
+        "description": "获得1本随机技能书\n技能书的品质与剩余时间挂钩",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H01R",
+    "rawcode": 1211117906,
+    "name": "贪财龙",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNgoldendragon.blp",
+    "icon_source": "Art",
+    "description": ",",
+    "skills": [
+      {
+        "id": "A0F1",
+        "name": "英被-贪财不可耻",
+        "description": "拥有的金钱越多，造成的所有伤害越高\n2500金钱以上生效，10000金钱=提高50%伤害，40000金钱=提高150%伤害",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O00L",
+    "rawcode": 1328558156,
+    "name": "铁皮人",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNArmorGolem.blp",
+    "icon_source": "Art",
+    "description": "近战英雄\n耐力成长：15\n敏捷成长：6\n力量成长：11\n天赋：铜墙铁壁",
+    "skills": [
+      {
+        "id": "A0F2",
+        "name": "英被-铜墙铁壁",
+        "description": "天生拥有100点护甲\n但是受到魔法伤害为正常的300%",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H01Q",
+    "rawcode": 1211117905,
+    "name": "兽族兵营",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNBarracks.blp",
+    "icon_source": "Art",
+    "description": "远程英雄\n耐力成长：11\n敏捷成长：10\n力量成长：12\n天赋：造兵",
+    "skills": [
+      {
+        "id": "A0F3",
+        "name": "英被-造兵",
+        "description": "每10秒造1个随机兽族作战单位参加战斗\n与你的属性挂钩",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O00M",
+    "rawcode": 1328558157,
+    "name": "基洛夫飞艇",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNGoblinZeppelin.blp",
+    "icon_source": "Art",
+    "description": "灵巧型的英雄，擅长于医疗和巫毒魔法。能学习到医疗波，妖术，毒蛇守卫和巫毒技能。\n\n能攻击地面和空中单位。",
+    "skills": [
+      {
+        "id": "A0F4",
+        "name": "英被-投掷轰炸",
+        "description": "基洛夫飞艇拥有较慢的移动速度和较近的攻击距离\n但是每次攻击都会造成范围伤害",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O00N",
+    "rawcode": 1328558158,
+    "name": "坦克",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNSeigeEngine.blp",
+    "icon_source": "Art",
+    "description": "灵巧型的英雄，擅长于医疗和巫毒魔法。能学习到医疗波，妖术，毒蛇守卫和巫毒技能。\n\n能攻击地面和空中单位。",
+    "skills": [
+      {
+        "id": "A0F5",
+        "name": "英被-攻城模式",
+        "description": "坦克天生拥有溅射攻击\n但是移动速度很低",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "N007",
+    "rawcode": 1311780919,
+    "name": "修补匠",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNHeroTinker.blp",
+    "icon_source": "Art",
+    "description": "近战英雄\n耐力成长：13\n敏捷成长：10\n力量成长：5\n天赋：机械改造",
+    "skills": [
+      {
+        "id": "A0F6",
+        "name": "英被-机械改造",
+        "description": "杀敌有概率掉落零件，拾取零件恢复20%生命值和10%法力值，并永久力量+1",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "U005",
+    "rawcode": 1429221429,
+    "name": "木乃伊之王",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNDalaranMutant.blp",
+    "icon_source": "Art",
+    "description": "一种神秘的英雄，能学习到霜冻护甲，霜冻新星，黑暗仪式和死亡凋零技能。\n\n能攻击地面和空中单位。",
+    "skills": [
+      {
+        "id": "A0F7",
+        "name": "英被-吞噬木乃伊",
+        "description": "吞噬区域内所有木乃伊，每只木乃伊随机增加以下属性：\n基础攻击力+2\n最大生命值+15\n法力值+10\n\n木乃伊之王对木乃伊的攻击免疫，也无法攻击木乃伊",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H01X",
+    "rawcode": 1211117912,
+    "name": "圣光晃眼",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNHeroPaladin.blp",
+    "icon_source": "Art",
+    "description": "近战英雄\n耐力成长：15\n敏捷成长：9\n力量成长：9\n天赋：圣光照射",
+    "skills": [
+      {
+        "id": "A0F8",
+        "name": "英被-圣光照射",
+        "description": "攻击有几率触发圣光照射，对攻击目标附近最多6个敌人造成【5x(耐力+敏捷)】的伤害，治疗自己【2x(耐力+敏捷)】生命值",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H01Y",
+    "rawcode": 1211117913,
+    "name": "黄金大天使",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNKJ_flight.blp",
+    "icon_source": "Art",
+    "description": "不会攻击的英雄\n耐力成长：10\n敏捷成长：10\n力量成长：10\n天赋：怜悯",
+    "skills": [
+      {
+        "id": "A0F9",
+        "name": "英被-怜悯",
+        "description": "黄金大天使不会主动攻击\n但是可以每3秒对附近600码内最多20个敌人造成【1.5x(耐力+敏捷+力量)】点物理伤害\n可触发攻击/武器特效",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O00O",
+    "rawcode": 1328558159,
+    "name": "亡灵巫师",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNGhostOfKelThuzad.blp",
+    "icon_source": "Art",
+    "description": "远程英雄\n耐力成长：11\n敏捷成长：6\n力量成长：9\n天赋：骷髅兵",
+    "skills": [
+      {
+        "id": "A0FA",
+        "name": "英被-骷髅兵",
+        "description": "从一具尸体中召唤出1个骷髅兵，存在120秒\n骷髅兵的攻击力和血量和力量/耐力挂钩",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H01Z",
+    "rawcode": 1211117914,
+    "name": "炸药桶",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNfire2.blp",
+    "icon_source": "Art",
+    "description": ",",
+    "skills": [
+      {
+        "id": "A0FF",
+        "name": "英被-爆炸",
+        "description": "炸药桶死亡会爆炸对附近400码内所有敌人造成【50x(敏捷+力量)】点伤害",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H020",
+    "rawcode": 1211118128,
+    "name": "靶子",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNMarksmanship.blp",
+    "icon_source": "Art",
+    "description": "远程英雄\n耐力成长：12\n敏捷成长：17\n力量成长：7\n天赋：正中靶心",
+    "skills": [
+      {
+        "id": "A0FG",
+        "name": "英被-正中靶心",
+        "description": "所有攻击靶子的敌人都会立刻受到伤害，同一个敌人攻击靶子的次数越多受到的伤害越高\n起始伤害为【1x敏捷】\n敌人每攻击一次受到的伤害提高为【(1+N)x敏捷】\n物理伤害",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H021",
+    "rawcode": 1211118129,
+    "name": "天线塔",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNbubble1.blp",
+    "icon_source": "Art",
+    "description": ",",
+    "skills": [
+      {
+        "id": "Alit",
+        "name": "闪电攻击",
+        "description": "",
+        "text_resolved": true
+      },
+      {
+        "id": "A0FH",
+        "name": "英被-引雷针",
+        "description": "天线塔每次施法都会勾引到雷电，对周围随机2-6个敌人释放闪电链，每道闪电链造成【4x(耐力+敏捷)】的伤害，每道闪电链最多伤害7个单位",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H022",
+    "rawcode": 1211118130,
+    "name": "飞机",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNFlyingMachine.blp",
+    "icon_source": "Art",
+    "description": ",",
+    "skills": [
+      {
+        "id": "A0FK",
+        "name": "英被-飞行模式",
+        "description": "天生会飞，没有碰撞体积\n拥有高快的移动速度！",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "N008",
+    "rawcode": 1311780920,
+    "name": "驯兽师",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNBeastMaster.blp",
+    "icon_source": "Art",
+    "description": "远程英雄\n耐力成长：11\n敏捷成长：5\n力量成长：11\n天赋：召唤米纱",
+    "skills": [
+      {
+        "id": "A0FM",
+        "name": "英被-召唤米纱",
+        "description": "召唤出米纱，一头强大的野熊来为你战斗。\n\n等级 1 -600点生命值，19-21点攻击力。\n等级 2 -900点生命值，28-30点攻击力，具有重击技能。 \n等级 3 -1200点生命值，38-40点攻击力，具有大锤技能。\n等级 4 -2250点生命值，59-69点攻击力，具有大锤技能。",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H024",
+    "rawcode": 1211118132,
+    "name": "蜥蜴智者",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNlizguard_icon.blp",
+    "icon_source": "Art",
+    "description": ",",
+    "skills": [
+      {
+        "id": "A0FN",
+        "name": "英被-白漂",
+        "description": "施放主动技能有40%概率不消耗法力值",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O00P",
+    "rawcode": 1328558160,
+    "name": "蜥蜴剑客",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNlizwitch.blp",
+    "icon_source": "Art",
+    "description": "一种较为灵活的英雄，特别擅长于一对一。能学习到镜像，疾步风，致命一击和剑刃风暴这四种技能。\n\n能攻击地面单位。",
+    "skills": [
+      {
+        "id": "A0FO",
+        "name": "英被-孤独剑客",
+        "description": "蜥蜴剑客每击杀200个敌人，三围+（2x当前英雄等级）",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H025",
+    "rawcode": 1211118133,
+    "name": "坟场",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNGraveyard.blp",
+    "icon_source": "Art",
+    "description": "战士型英雄，特别擅长于保护自己周围的部队，能学习到神圣之光，神圣护甲，专注光环和复活这四项技能。\n\n能攻击地面单位。",
+    "skills": [
+      {
+        "id": "A0FQ",
+        "name": "英被-死亡祝福",
+        "description": "用死亡祝福1个队友英雄，该队友英雄在2分钟之内死亡的话你的金钱+(队友英雄等级x2000)，三围+(队友英雄等级x2)（除了死亡英雄玩家，其他队友玩家也可以获得50%奖励）\n\n坟场在哪里死亡，在哪里复活",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O00R",
+    "rawcode": 1328558162,
+    "name": "黑寡妇",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNSpiderBlack.blp",
+    "icon_source": "Art",
+    "description": "近战英雄\n耐力成长：8\n敏捷成长：11\n力量成长：8\n天赋：寄生幼株",
+    "skills": [
+      {
+        "id": "A0GD",
+        "name": "英被-寄生幼蛛",
+        "description": "攻击会使目标中毒，每秒造成【力量+敏捷】伤害，持续5秒\n目标在中毒期间死亡后有概率召唤1只幼蛛，幼蛛属性和三围挂钩，每只幼蛛存在15秒",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H026",
+    "rawcode": 1211118134,
+    "name": "许愿池",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNMoonWell.blp",
+    "icon_source": "Art",
+    "description": "远程英雄\n耐力成长：12\n敏捷成长：3\n力量成长：6\n天赋：许愿池",
+    "skills": [
+      {
+        "id": "A0GC",
+        "name": "英被-许愿池",
+        "description": "受到攻击时有概率掉落随机的神奇东西\n无数冒险者曾在达拉然的喷泉中投入宝藏",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O00Q",
+    "rawcode": 1328558161,
+    "name": "老骆驼",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNRiderlessHorse.blp",
+    "icon_source": "Art",
+    "description": "一种灵活的英雄，特别擅长于一对一。能学习到镜像、疾步风、致命一击和剑刃风暴这四种技能。\n\n能攻击地面单位。",
+    "skills": [
+      {
+        "id": "A0GB",
+        "name": "英被-德高望重",
+        "description": "自己或任意友军使用任意药水时，老骆驼永久三围+1\n如果是友军使用药水，老骆驼也会获得其使用的药水效果（无敌药水无效）",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H02O",
+    "rawcode": 1211118159,
+    "name": "弊佬",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNShoveler.blp",
+    "icon_source": "Art",
+    "description": ",",
+    "skills": [
+      {
+        "id": "A0KD",
+        "name": "英被-刷存档被封了",
+        "description": "弊佬特别喜欢刷存档改数据来满足自己，但是总是要面临被封的风险，这就叫高风险高回报\n弊佬每次升级三围额外增加或减少【(-10~15)x英雄等级】",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H00U",
+    "rawcode": 1211117653,
+    "name": "空洞战士",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNRevenant.blp",
+    "icon_source": "Art",
+    "description": "近战英雄\n耐力成长：2\n敏捷成长：2\n力量成长：2\n天赋：填补空洞",
+    "skills": [
+      {
+        "id": "A07N",
+        "name": "英被-填补空洞",
+        "description": "空洞战士会随着时间越来越大越来越强，每60秒三围+(关卡x7)\n若英雄死亡扣除这些属性重新积累",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O01B",
+    "rawcode": 1328558402,
+    "name": "龙屠",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNBlueDragonSpawn.blp",
+    "icon_source": "Art",
+    "description": "近战英雄，平台等级6可使用\n耐力成长：9至22\n敏捷成长：6至16\n力量成长：9至17\n天赋：拥有额外2点护甲值",
+    "skills": [
+      {
+        "id": "A0LL",
+        "name": "英被-屠龙还是被龙屠",
+        "description": "每2分钟召唤1只大黑龙\n大黑龙可能为你攻击敌人，也可能会攻击你\n若你被大黑龙所杀，你的三围+英雄等级\n\n大黑龙的攻击与你的力量挂钩",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H027",
+    "rawcode": 1211118135,
+    "name": "第一代沙河坠饰",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNshahuangxl.blp",
+    "icon_source": "Art",
+    "description": "一位神秘的英雄，特别擅长于远程攻击。他能学到暴风雪、召唤水元素、辉煌光环和群体传送魔法。\n\n能攻击地面和空中单位。",
+    "skills": [
+      {
+        "id": "A0GM",
+        "name": "英被-祖传坠饰",
+        "description": "成功挑战永暗地狱火后获得的沙河坠饰额外获得属性三围+166/233/444/588/766/999\n沙河坠饰等级越高加的三围越多",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H028",
+    "rawcode": 1211118136,
+    "name": "滚滚",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNEarthBrewmaster.blp",
+    "icon_source": "Art",
+    "description": "战士型英雄，特别擅长于保护自己周围的部队，能学习到神圣之光，神圣护甲，专注光环和复活这四项技能。\n\n能攻击地面单位。",
+    "skills": [
+      {
+        "id": "A0GY",
+        "name": "英被-滚开",
+        "description": "滚滚不会攻击，但是所有碰到他的敌人都会被撞开并造成【3x(耐力+力量)】伤害\n可触发攻击/武器特效\n对Boss没有撞飞效果",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O00S",
+    "rawcode": 1328558163,
+    "name": "坏心眼",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNClockWerkGoblin.blp",
+    "icon_source": "Art",
+    "description": "一种灵活的英雄，特别擅长于一对一。能学习到镜像、疾步风、致命一击和剑刃风暴这四种技能。\n\n能攻击地面单位。",
+    "skills": [
+      {
+        "id": "A0GZ",
+        "name": "英被-心灾乐祸",
+        "description": "自己或者队友升级装备失败，自己的三围+10",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "N013",
+    "rawcode": 1311781171,
+    "name": "天命勇士",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp",
+    "icon_source": "Art",
+    "description": "近战英雄\n耐力成长：?\n敏捷成长：?\n力量成长：?\n天赋：既定之天命",
+    "skills": [
+      {
+        "id": "A0H6",
+        "name": "英被-既定之天命",
+        "description": "英雄升级时的三围成长是1-25点随机的\n除此之外每次升级还会随机增伤提高1%-5%",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H029",
+    "rawcode": 1211118137,
+    "name": "巨困",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNOgre.blp",
+    "icon_source": "Art",
+    "description": "近战英雄\n耐力成长：11\n敏捷成长：5\n力量成长：10\n天赋：补个回笼觉",
+    "skills": [
+      {
+        "id": "A0H7",
+        "name": "英被-补个回笼觉",
+        "description": "突然袭来的困意总是无法阻挡，巨困随时都有概率立刻进入睡眠状态3-12秒，睡眠状态下无敌，每秒三围+(英雄等级)并恢复15%生命值",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H02A",
+    "rawcode": 1211118145,
+    "name": "树",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNAncientOfTheMoon.blp",
+    "icon_source": "Art",
+    "description": "远程英雄\n耐力成长：7\n敏捷成长：3\n力量成长：4\n天赋：造林",
+    "skills": [
+      {
+        "id": "A0H8",
+        "name": "英被-造林",
+        "description": "每10秒在原地种植1颗树，每棵树每秒对附近所有敌人造成【2x(力量+敏捷)】范围伤害，每棵树每秒对附近所有友军治疗【1x耐力】生命值，每棵树存在50秒",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O00T",
+    "rawcode": 1328558164,
+    "name": "变色雪怪",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNWendigo.blp",
+    "icon_source": "Art",
+    "description": "一种较为灵活的英雄，特别擅长于一对一。能学习到镜像，疾步风，致命一击和剑刃风暴这四种技能。\n\n能攻击地面单位。",
+    "skills": [
+      {
+        "id": "A0HA",
+        "name": "英被-变色",
+        "description": "变色雪怪不同的颜色会获得不同的加成\n红色：力量+（英雄等级x30）\n绿色：敏捷+（英雄等级x30）\n蓝色：耐力+（英雄等级x30）\n黑色：三围+（英雄等级x12）\n黄色：生命值+（英雄等级x2000）\n紫色：攻击力+（英雄等级x200）\n\n每次变色雪怪死亡后随机换色",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "U00O",
+    "rawcode": 1429221455,
+    "name": "雷茵公主",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNVillagerWoman.blp",
+    "icon_source": "Art",
+    "description": "一种神秘的英雄，能学习到霜冻护甲，霜冻新星，黑暗仪式和死亡凋零技能。\n\n能攻击地面和空中单位。",
+    "skills": [
+      {
+        "id": "A0HE",
+        "name": "英被-公主病",
+        "description": "自己受到10%的伤害都会由其他队友英雄来分担，若队友英雄为了分担伤害而死，队友的三围+3\n队友英雄每次升级公主自身三围+3\n\n该英雄由DreamJK提供",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "U00Q",
+    "rawcode": 1429221457,
+    "name": "泡泡羊",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNSheep.blp",
+    "icon_source": "Art",
+    "description": "一种神秘的英雄，能学习到霜冻护甲，霜冻新星，黑暗仪式和死亡凋零技能。\n\n能攻击地面和空中单位。",
+    "skills": [
+      {
+        "id": "A0HG",
+        "name": "英被-队友由我罩",
+        "description": "将在暗影猎手附近一定区域内的所有友军单位都变为无敌。\n但是暗影猎手自己不会变为无敌。\n持续30秒。",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "U00M",
+    "rawcode": 1429221453,
+    "name": "污妖王",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNLichVersion2.blp",
+    "icon_source": "Art",
+    "description": "一种神秘的英雄，能学习到霜冻护甲，霜冻新星，黑暗仪式和死亡凋零技能。\n\n能攻击地面和空中单位。",
+    "skills": [
+      {
+        "id": "A0HC",
+        "name": "英被-伪霜之哀伤",
+        "description": "每攻击20次，会对目标造成一次350码内所有敌人造成【杀敌数x15】点魔法伤害，并使自身三围+1\n\n该英雄由孤行烈酒提供",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "U00P",
+    "rawcode": 1429221456,
+    "name": "小方",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNForestTroll.blp",
+    "icon_source": "Art",
+    "description": "一种神秘的英雄，能学习到霜冻护甲，霜冻新星，黑暗仪式和死亡凋零技能。\n\n能攻击地面和空中单位。",
+    "skills": [
+      {
+        "id": "A0HF",
+        "name": "英被-邦桑迪之力",
+        "description": "小方受到致命一击时不会立刻死亡，而是变为无敌形态并可以继续攻击和施放技能，12秒后才会真正死亡\n\n该英雄由夜夜丶挽歌提供",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "U00N",
+    "rawcode": 1429221454,
+    "name": "地卜师",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNKoboldGeomancer.blp",
+    "icon_source": "Art",
+    "description": "近战英雄\n耐力成长：11\n敏捷成长：13\n力量成长：11\n天赋：肉体分裂",
+    "skills": [
+      {
+        "id": "A0HD",
+        "name": "英被-肉体分裂",
+        "description": "地卜师每次升级都会生成1个和自己长得一样的复制品，拥有5倍的攻击力和5倍的生命值，不会用技能，不能携带物品，持续时间永久\n分裂出来的地卜师也可以触发武器特效\n\n该英雄由孤行烈酒提供",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H02C",
+    "rawcode": 1211118147,
+    "name": "老海盗",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNProudMoore.blp",
+    "icon_source": "Art",
+    "description": "战士型英雄，特别擅长于保护自己周围的部队，能学习到神圣之光、神圣护甲、专注光环和复活这四项技能。\n\n能攻击地面单位。",
+    "skills": [
+      {
+        "id": "A0HH",
+        "name": "英被-贿赂",
+        "description": "贿赂老海盗使其三围随机提高（1-10点）\n每贿赂10次可以永久使老船长的增伤+3%\n\n该英雄由安小小白提供",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O00Y",
+    "rawcode": 1328558169,
+    "name": "骸骨王",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNSkeletalOrc.blp",
+    "icon_source": "Art",
+    "description": "近战英雄\n耐力成长：15\n敏捷成长：2\n力量成长：13\n天赋：死亡降临",
+    "skills": [
+      {
+        "id": "A0HO",
+        "name": "英被-死亡降临",
+        "description": "在全图任意点标记一个区域，区域内任何敌人死亡都有25%几率随机骸骨王力量+1或耐力+1\n区域持续15秒，区域结束时骸骨王会立刻飞到区域中心并对区域内所有敌人造成【8x(力量+耐力)】的魔法伤害\n\n该英雄由shiyue1提供",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H02E",
+    "rawcode": 1211118149,
+    "name": "克苏恩",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNForgottenOne.blp",
+    "icon_source": "Art",
+    "description": ",",
+    "skills": [
+      {
+        "id": "A0HN",
+        "name": "英被-产触手",
+        "description": "在指定区域伸出【英雄等级】个触手，触手的攻击力/攻击速度/生命值与克苏恩的三围挂钩\n每只触手存在100秒，触手可以触发武器特效\n\n克苏恩不会移动不会攻击，但拥有很远的施法距离\n\n该英雄由强哥真是太牛逼了提供",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H02D",
+    "rawcode": 1211118148,
+    "name": "纯正火元素",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNLavaSpawn.blp",
+    "icon_source": "Art",
+    "description": ",",
+    "skills": [
+      {
+        "id": "A0HM",
+        "name": "英被-点燃",
+        "description": "攻击有10%几率点燃目标地面，持续燃烧的火焰可以对附近单位每秒造成【1.5x(力量+耐力+敏捷)】点魔法伤害，每团火焰持续7秒\n\n\n该英雄由强哥真是太牛逼了提供",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O00V",
+    "rawcode": 1328558166,
+    "name": "创业工人",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNElfVillager.blp",
+    "icon_source": "Art",
+    "description": "一种灵活的英雄，特别擅长于一对一。能学习到镜像、疾步风、致命一击和剑刃风暴这四种技能。\n\n能攻击地面单位。",
+    "skills": [
+      {
+        "id": "Ahrp",
+        "name": "修理",
+        "description": "修理建筑物和机械单位，需要消耗资源。",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H032",
+    "rawcode": 1211118386,
+    "name": "逆贼",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNCagedIllidan.blp",
+    "icon_source": "Art",
+    "description": "远程英雄，平台等级12可使用\n耐力成长：7至17\n敏捷成长：10至24\n力量成长：7至17\n天赋：杀死敌人有几率永久增加英雄等级点攻击力",
+    "skills": [
+      {
+        "id": "A0LG",
+        "name": "英被-素质极差",
+        "description": "逆贼每2分钟都会偷所有队友英雄的三围，队友英雄的三围减少，逆贼自己的三围增加\n具体数值随着游戏时间不断提高",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H01J",
+    "rawcode": 1211117898,
+    "name": "6块金砖",
+    "icon": "war3mapImported\\INV_Ingot_05.blp",
+    "icon_source": "Art",
+    "description": "远程英雄，？？？？可使用\n耐力成长：20至30\n敏捷成长：28至60\n力量成长：22至32\n天赋：攻击有几率召唤一个复制镜像出来",
+    "skills": [
+      {
+        "id": "A06G",
+        "name": "英被-无限金砖",
+        "description": "天生拥有999999金砖",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H033",
+    "rawcode": 1211118387,
+    "name": "保险丝",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNKJ_dian.blp",
+    "icon_source": "Art",
+    "description": "远程英雄\n耐力成长：15\n敏捷成长：8\n力量成长：8\n天赋：微型方尖塔",
+    "skills": [
+      {
+        "id": "A0LH",
+        "name": "英被-大保险",
+        "description": "保险丝可以在游戏失败时触发保险（保险丝此时必须存活），立刻清场地图上20%的敌人，但是会牺牲保险丝的生命，并且此次复活时间翻倍",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "N01D",
+    "rawcode": 1311781188,
+    "name": "太极大师",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNEarthBrewmaster.blp",
+    "icon_source": "Art",
+    "description": "近战英雄\n耐力成长：?\n敏捷成长：?\n力量成长：?\n天赋：既定之天命",
+    "skills": [
+      {
+        "id": "A0LK",
+        "name": "英被-太极",
+        "description": "以柔克刚！\n太极大师攻击任何敌人都是目标最大生命值50%的物理伤害（武器特效、技能不受影响，Boss效果打折）\n太极大师受到的所有伤害都只会掉4%生命值",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O010",
+    "rawcode": 1328558384,
+    "name": "一击男",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNChaosPeon.blp",
+    "icon_source": "Art",
+    "description": "一种灵活的英雄，特别擅长于一对一。能学习到镜像、疾步风、致命一击和剑刃风暴这四种技能。\n\n能攻击地面单位。",
+    "skills": [
+      {
+        "id": "A0HT",
+        "name": "英被-无论什么都是一下",
+        "description": "一击男无论打什么都是一下\n所以导致他根本提不起兴趣来了",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H01E",
+    "rawcode": 1211117893,
+    "name": "自爆小精灵",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNWisp.blp",
+    "icon_source": "Art",
+    "description": "远程英雄，？？？？可使用\n耐力成长：29至39\n敏捷成长：41至86\n力量成长：32至42\n天赋：攻击有几率光轮之舞、召唤镜像、嗜血狂暴",
+    "skills": [
+      {
+        "id": "Adtn",
+        "name": "英被-自爆",
+        "description": "牺牲自己自爆，对范围600码内所有敌人造成【目标当前生命值x85%】伤害（对Boss效果打折）\n小精灵的复活时间只有4秒",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H023",
+    "rawcode": 1211118131,
+    "name": "破洞的钱袋",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNMGExchange.blp",
+    "icon_source": "Art",
+    "description": "一位神秘的英雄，特别擅长于远程攻击。他能学到暴风雪、召唤水元素、辉煌光环和群体传送魔法。\n\n能攻击地面和空中单位。",
+    "skills": [
+      {
+        "id": "A0FL",
+        "name": "英被-漏钱",
+        "description": "每20秒在脚下掉出随机数额的金钱，任意玩家拾取后可以获得金钱\n可能是100/1000/10000金钱，与游戏时间挂钩\n自己不会损失金钱，拾取后可以增加金钱",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H02V",
+    "rawcode": 1211118166,
+    "name": "传教士",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNPriest.blp",
+    "icon_source": "Art",
+    "description": "远程英雄\n耐力成长：12\n敏捷成长：3\n力量成长：6\n天赋：许愿池",
+    "skills": [
+      {
+        "id": "A0L5",
+        "name": "英被-感化",
+        "description": "传教士攻击有几率直接感化被攻击目标\n对变异精英怪、Boss无效",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H02B",
+    "rawcode": 1211118146,
+    "name": "经验使者",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNVillagerMan.blp",
+    "icon_source": "Art",
+    "description": "战士型英雄，特别擅长于保护自己周围的部队，能学习到神圣之光，神圣护甲，专注光环和复活这四项技能。\n\n能攻击地面单位。",
+    "skills": [
+      {
+        "id": "A0H9",
+        "name": "英被-吃经验书",
+        "description": "释放该技能后不能移动和攻击，自动持续吃经验书，每秒增加1000点经验值，持续20秒\n期间发布其他命令可以打断吃经验书",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H02H",
+    "rawcode": 1211118152,
+    "name": "随机大王",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNHeroBloodElfPrince.blp",
+    "icon_source": "Art",
+    "description": "远程英雄\n耐力成长：7\n敏捷成长：7\n力量成长：7\n天赋：命运之筛",
+    "skills": [
+      {
+        "id": "A0HR",
+        "name": "英被-命运之筛",
+        "description": "每次随机大王升级，都可能触发以下效果：\n20%几率获得1本技能书\n20%几率增加【5000x英雄等级】金钱\n20%几率立刻死亡\n20%几率三围+25\n20%几率所有队友获得【3000x英雄等级】金钱\n\n该英雄由孤行烈酒提供",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O00W",
+    "rawcode": 1328558167,
+    "name": "小学生",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNVillagerKid.blp",
+    "icon_source": "Art",
+    "description": "一种灵活的英雄，特别擅长于一对一。能学习到镜像、疾步风、致命一击和剑刃风暴这四种技能。\n\n能攻击地面单位。",
+    "skills": [
+      {
+        "id": "A0HK",
+        "name": "英被-天天向上",
+        "description": "每学习1本技能书三围+15\n\n该英雄由琉璃千羽提供",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O00X",
+    "rawcode": 1328558168,
+    "name": "老好人",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNBanditMage.blp",
+    "icon_source": "Art",
+    "description": "一种灵活的英雄，特别擅长于一对一。能学习到镜像、疾步风、致命一击和剑刃风暴这四种技能。\n\n能攻击地面单位。",
+    "skills": [
+      {
+        "id": "A0HL",
+        "name": "英被-安慰金",
+        "description": "自己或者队友升级装备失败，都会返还50%金钱\n除此之外老好人还会得到额外30%金钱\n\n该英雄由八神灬疾风提供",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O00U",
+    "rawcode": 1328558165,
+    "name": "支援小炮",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNMortarTeam.blp",
+    "icon_source": "Art",
+    "description": "灵巧型的英雄，擅长于医疗和巫毒魔法。能学习到医疗波，妖术，毒蛇守卫和巫毒技能。\n\n能攻击地面和空中单位。",
+    "skills": [
+      {
+        "id": "A0HI",
+        "name": "英被-全图支援",
+        "description": "每击杀1个Boss，支援小炮的攻击距离和施法距离永久提高300码\n\n该英雄由横竖撇捺折点提供",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H02F",
+    "rawcode": 1211118150,
+    "name": "不准的预言家",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNBTN0124.blp",
+    "icon_source": "Art",
+    "description": ",",
+    "skills": [
+      {
+        "id": "A0HP",
+        "name": "英被-瞎比预言",
+        "description": "随机做1个预言（不包含打响指预言），你完全无法预料他会预言到什么鬼\n预言成功后会额外三围+40\n\n该英雄由八神灬疾风提供",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H02G",
+    "rawcode": 1211118151,
+    "name": "臭狗",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNPurpleFelhound.blp",
+    "icon_source": "Art",
+    "description": "战士型英雄，特别擅长于保护自己周围的部队，能学习到神圣之光，神圣护甲，专注光环和复活这四项技能。\n\n能攻击地面单位。",
+    "skills": [
+      {
+        "id": "A0HQ",
+        "name": "英被-狗急跳墙",
+        "description": "臭狗疯了！突然体积变得巨大，增伤+50%，免伤+50%，并每秒对脚下所有敌人造成【2x三围】的魔法伤害，该状态持续20秒，效果结束后永久白字三围减少10%\n\n该英雄由歪37969121提供",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "U00R",
+    "rawcode": 1429221458,
+    "name": "考官",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNManual3.blp",
+    "icon_source": "Art",
+    "description": "一种神秘的英雄，能学习到霜冻护甲，霜冻新星，黑暗仪式和死亡凋零技能。\n\n能攻击地面和空中单位。",
+    "skills": [
+      {
+        "id": "A0HV",
+        "name": "英被-开始考试！",
+        "description": "有考官在场的游戏中，会随机出现考官问题，每个问题第一个答对的玩家可以获得三围+30（限时20秒回答出正确答案）",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H02I",
+    "rawcode": 1211118153,
+    "name": "艾伦",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNBTN0139.blp",
+    "icon_source": "Art",
+    "description": ",",
+    "skills": [
+      {
+        "id": "A0I3",
+        "name": "英被-救护车",
+        "description": "当队友的怪上限数超过80时，你击杀队友的怪有几率让自己三围+1和该队友英雄三围+1\n队友的怪上限低于80不再生效",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H02J",
+    "rawcode": 1211118154,
+    "name": "Bug",
+    "icon": "UI\\Glues\\ScoreScreen\\scorescreen-hero-sylvanus.blp",
+    "icon_source": "ScoreScreenIcon",
+    "description": ",",
+    "skills": [
+      {
+        "id": "A0I4",
+        "name": "英被-€?)\\?儉€;┴?",
+        "description": "??!屃1  €?b?!屃1  €?b偙qj煴?5???21  €控1桴1  €繝氷铲6k睸Z浌  €?€閘睸Z浌  €?睲嚥`b浌  €?2郥睠[浌  €?睺阐X浌  €?qj煴?5???镕啿馬浌",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O011",
+    "rawcode": 1328558385,
+    "name": "巨小",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNAuraOfDarkness.blp",
+    "icon_source": "Art",
+    "description": "一种灵活的英雄，特别擅长于一对一。能学习到镜像、疾步风、致命一击和剑刃风暴这四种技能。\n\n能攻击地面单位。",
+    "skills": [
+      {
+        "id": "A0I5",
+        "name": "英被-太小了",
+        "description": "因为太小了，所以看不见他的模型，也导致他拥有几乎没有的碰撞体积，可以自由穿梭于其他单位之间！",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H02K",
+    "rawcode": 1211118155,
+    "name": "魔免佬",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNSpellBreaker.blp",
+    "icon_source": "Art",
+    "description": "一位神秘的英雄，特别擅长于远程攻击。他能学到暴风雪、召唤水元素、辉煌光环和群体传送魔法。\n\n能攻击地面和空中单位。",
+    "skills": [
+      {
+        "id": "A0IH",
+        "name": "英被-魔法免疫",
+        "description": "对所有魔法免疫！",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H02L",
+    "rawcode": 1211118156,
+    "name": "透明人",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNBTN0123.blp",
+    "icon_source": "Art",
+    "description": ",",
+    "skills": [
+      {
+        "id": "A0II",
+        "name": "英被-没有存在感",
+        "description": "透明人在任何人面前都没有存在感",
+        "text_resolved": true
+      },
+      {
+        "id": "Agho",
+        "name": "幽灵",
+        "description": "",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H012",
+    "rawcode": 1211117874,
+    "name": "尼玛",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNqifuniba.blp",
+    "icon_source": "Art",
+    "description": "战士型英雄，特别擅长于冲锋陷阵。能学习到风暴之锤、雷霆一击、重击和天神下凡。\n\n能攻击地面单位。",
+    "skills": [
+      {
+        "id": "A0B1",
+        "name": "英被-审美疲劳",
+        "description": "尼玛每击杀150个敌人，随机触发以下效果：\n力量+（5x当前英雄等级）\n敏捷+（5x当前英雄等级）\n耐力+（5x当前英雄等级）\n攻击力+（20x当前英雄等级）\n金砖+5\n三围-（1x当前英雄等级）",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O012",
+    "rawcode": 1328558386,
+    "name": "狐仙",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNBandit.blp",
+    "icon_source": "Art",
+    "description": "一种灵活的英雄，特别擅长于一对一。能学习到镜像、疾步风、致命一击和剑刃风暴这四种技能。\n\n能攻击地面单位。",
+    "skills": [
+      {
+        "id": "A0IZ",
+        "name": "英被-狐臭",
+        "description": "狐仙天生拥有恐怖的狐臭，会随机间歇性的污染整张地图（每次狐臭发作持续30秒）\n每次狐臭发作后全地图，所有敌人每2秒护甲永久降低1点，所有友军每2秒掉10%生命值（狐臭每影响1个友军英雄狐仙的三围+1）\n\n吃鸡模式下，狐臭只持续10秒\n\n该英雄由贺立红提供",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O013",
+    "rawcode": 1328558387,
+    "name": "乡下人",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNHeroMountainKing.blp",
+    "icon_source": "Art",
+    "description": "一种灵活的英雄，特别擅长于一对一。能学习到镜像、疾步风、致命一击和剑刃风暴这四种技能。\n\n能攻击地面单位。",
+    "skills": [
+      {
+        "id": "A0IY",
+        "name": "英被-刚进城",
+        "description": "乡下人第一次进城，什么都懵懂的，所以老被黑商骗钱\n从商店购买任何东西会花光身上所有金钱，但是因此乡下人也涨了教训，三围永久增加（增加的数值与额外花光的金额挂钩）\n\n该英雄由宇宙巴尔坦星人提供",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O00Z",
+    "rawcode": 1328558170,
+    "name": "尸体",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNUndeadLoad.blp",
+    "icon_source": "Art",
+    "description": "一种灵活的英雄，特别擅长于一对一。能学习到镜像、疾步风、致命一击和剑刃风暴这四种技能。\n\n能攻击地面单位。",
+    "skills": [
+      {
+        "id": "A0HS",
+        "name": "英被-已经死的人还怎么死？",
+        "description": "已经死的人还怎么死？\n所以嘛，都已经是尸体了，当然就不怕死咯？",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O014",
+    "rawcode": 1328558388,
+    "name": "拟态虫",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNDuneWorm.blp",
+    "icon_source": "Art",
+    "description": "一种灵活的英雄，特别擅长于一对一。能学习到镜像、疾步风、致命一击和剑刃风暴这四种技能。\n\n能攻击地面单位。",
+    "skills": [
+      {
+        "id": "A0KC",
+        "name": "英被-拟态",
+        "description": "复制一个队友或者自己的镜像，镜像造成的攻击伤害提高100%，受到的伤害降低50%，不会释放技能，持续60秒",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H02N",
+    "rawcode": 1211118158,
+    "name": "法国男兵",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNChaosSpaceOrc.blp",
+    "icon_source": "Art",
+    "description": "远程英雄\n耐力成长：2\n敏捷成长：25\n力量成长：2\n天赋：神秘之力",
+    "skills": [
+      {
+        "id": "A0KB",
+        "name": "英被-发光手表",
+        "description": "法国男兵受到致命伤害时会运用时间之力，立刻回复全部生命值与法力值，并获得时间祝福在15秒内攻击速度+200%，移动速度+100%\n\n发光手表每60秒只能触发1次",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H02P",
+    "rawcode": 1211118160,
+    "name": "一团火",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNfire.blp",
+    "icon_source": "Art",
+    "description": "不会攻击的英雄\n耐力成长：10\n敏捷成长：10\n力量成长：10\n天赋：怜悯",
+    "skills": [
+      {
+        "id": "A0KE",
+        "name": "英被-燃烧生命",
+        "description": "一团火一直在持续燃烧自己，所以每秒消耗2%生命值，同时对周围400码内所有敌人造成【燃烧的生命值x10】点伤害",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H02Q",
+    "rawcode": 1211118161,
+    "name": "暗改难度号",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNHumanBattleShip.blp",
+    "icon_source": "Art",
+    "description": "远程英雄\n耐力成长：4\n敏捷成长：13\n力量成长：12\n天赋：炎爆",
+    "skills": [
+      {
+        "id": "A0KF",
+        "name": "英被-暗改难度",
+        "description": "反正每次更新你们都以为我在暗改难度，那就正大光明的暗改难度吧\n使用本英雄后，你出的所有怪血量和攻击力都得到大幅度提升！",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H02R",
+    "rawcode": 1211118162,
+    "name": "瀑布",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNgreenblue.blp",
+    "icon_source": "Art",
+    "description": "远程英雄\n耐力成长：12\n敏捷成长：3\n力量成长：6\n天赋：许愿池",
+    "skills": [
+      {
+        "id": "A0KV",
+        "name": "英被-柔性之美",
+        "description": "瀑布天生具有柔性体质（攻击速度比其他英雄略快，优秀的三围），所以攻击和技能永远都不会暴击",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H02S",
+    "rawcode": 1211118163,
+    "name": "投刃车",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNGlaiveThrower.blp",
+    "icon_source": "Art",
+    "description": "远程英雄\n耐力成长：12\n敏捷成长：3\n力量成长：6\n天赋：许愿池",
+    "skills": [
+      {
+        "id": "A0J9",
+        "name": "英被-穿透攻击",
+        "description": "投刃车的攻击可以同时伤害到目标身后的其他敌人",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H02W",
+    "rawcode": 1211118167,
+    "name": "残疾人",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNWitchDoctor.blp",
+    "icon_source": "Art",
+    "description": "远程英雄，？？？？可使用\n耐力成长：33至43\n敏捷成长：45至94\n力量成长：37至47\n天赋：攻击有几率召唤一个镜像",
+    "skills": [
+      {
+        "id": "A0L6",
+        "name": "英被-身残志坚",
+        "description": "残疾人因为天生身体缺陷，血量低于40%就会立刻死亡\n但是残疾人拥有极好的三围成长",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H02Z",
+    "rawcode": 1211118170,
+    "name": "出租屋",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNFarm.blp",
+    "icon_source": "Art",
+    "description": "远程英雄\n耐力成长：11\n敏捷成长：10\n力量成长：12\n天赋：造兵",
+    "skills": [
+      {
+        "id": "A0LC",
+        "name": "英被-出入客",
+        "description": "每分钟随机增加/减少怪上限数量（-3~4）",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O015",
+    "rawcode": 1328558389,
+    "name": "刺",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNImprovedSpikedBarricades.blp",
+    "icon_source": "Art",
+    "description": "一种灵活的英雄，特别擅长于一对一。能学习到镜像、疾步风、致命一击和剑刃风暴这四种技能。\n\n能攻击地面单位。",
+    "skills": [
+      {
+        "id": "A0L3",
+        "name": "英被-尖刺",
+        "description": "在地穴领主的身上形成一层带有尖刺的保护壳，增加其防御能力并能弹射敌人的近战攻击。\n\n等级 1 - 弹射15%的伤害，增加3点护甲。\n等级 2 -  弹射25%的伤害，增加5点护甲。\n等级 3 -  弹射35%点的伤害，增加7点护甲。",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O01A",
+    "rawcode": 1328558401,
+    "name": "大宝剑",
+    "icon": "ReplaceableTextures\\CommandButtons\\btndivine.blp",
+    "icon_source": "Art",
+    "description": "一种灵活的英雄，特别擅长于一对一。能学习到镜像、疾步风、致命一击和剑刃风暴这四种技能。\n\n能攻击地面单位。",
+    "skills": [
+      {
+        "id": "A0LI",
+        "name": "英被-剑波",
+        "description": "攻击有几率释放出剑波，对一条线上的所有敌人造成【6x(力量+敏捷)】点物理伤害",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O017",
+    "rawcode": 1328558391,
+    "name": "大肚量",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNRiderlessKodo.blp",
+    "icon_source": "Art",
+    "description": "一种灵活的英雄，特别擅长于一对一。能学习到镜像、疾步风、致命一击和剑刃风暴这四种技能。\n\n能攻击地面单位。",
+    "skills": [
+      {
+        "id": "Advc",
+        "name": "吞噬货物",
+        "description": "",
+        "text_resolved": true
+      },
+      {
+        "id": "Adev",
+        "name": "英被-吞噬",
+        "description": "吞噬一个敌人，立刻消化掉，并将被吞噬敌人的部分生命值与攻击力转化为永久加成自己的生命值和攻击力\n对Boss无效",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O016",
+    "rawcode": 1328558390,
+    "name": "复仇者",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNNightElfRunner.blp",
+    "icon_source": "Art",
+    "description": "近战英雄，平台等级6可使用\n耐力成长：9至22\n敏捷成长：6至16\n力量成长：9至17\n天赋：拥有额外2点护甲值",
+    "skills": [
+      {
+        "id": "A0L4",
+        "name": "英被-帮你报仇",
+        "description": "任意队友英雄死亡，复仇者自身三围+【自己英雄等级x20】，持续30秒\n不同队友英雄死亡叠加，同一个队友英雄死亡多次不叠加",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H02X",
+    "rawcode": 1211118168,
+    "name": "共享祭坛",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNAltarOfKings.blp",
+    "icon_source": "Art",
+    "description": "远程英雄\n耐力成长：11\n敏捷成长：10\n力量成长：12\n天赋：造兵",
+    "skills": [
+      {
+        "id": "A0L7",
+        "name": "英被-同舟共济",
+        "description": "所有玩家的血量百分比是完全同等共享的",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O018",
+    "rawcode": 1328558392,
+    "name": "后背凉",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNRazorManeChief.blp",
+    "icon_source": "Art",
+    "description": "一种灵活的英雄，特别擅长于一对一。能学习到镜像、疾步风、致命一击和剑刃风暴这四种技能。\n\n能攻击地面单位。",
+    "skills": [
+      {
+        "id": "A0L8",
+        "name": "英被-打我背",
+        "description": "所有敌人对你后背造成伤害都会减免50%，并且有30%的几率反弹此次全部伤害给敌人",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H031",
+    "rawcode": 1211118385,
+    "name": "卡死",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNStoneForm.blp",
+    "icon_source": "Art",
+    "description": ",",
+    "skills": [
+      {
+        "id": "A0LF",
+        "name": "英被-我死就卡",
+        "description": "只要死了，全图所有东西都卡死，直到你复活为止",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H02T",
+    "rawcode": 1211118164,
+    "name": "牛头人",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNTauren.blp",
+    "icon_source": "Art",
+    "description": "战士型英雄，特别擅长于冲锋陷阵。能学习到风暴之锤、雷霆一击、重击和天神下凡。\n\n能攻击地面单位。",
+    "skills": [
+      {
+        "id": "A0KZ",
+        "name": "英被-更慢更强",
+        "description": "牛头人因为过于健壮的身体所以死亡后的复活时间是其他英雄2倍，但是复活后的无敌时间也是其他英雄的2倍",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H030",
+    "rawcode": 1211118384,
+    "name": "群管理员",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNHeadHunterBerserker.blp",
+    "icon_source": "Art",
+    "description": "远程英雄，？？？？可使用\n耐力成长：12至22\n敏捷成长：15至34\n力量成长：13至23\n天赋：攻击有几率短暂提高3%增伤或1%免伤，可以叠加",
+    "skills": [
+      {
+        "id": "A0LE",
+        "name": "英被-管理员特权",
+        "description": "管理员特权就是减配版（物品栏只有4个）的地图作者特权\n他们就会T人拉人建群怼玩家！",
+        "text_resolved": true
+      },
+      {
+        "id": "A0LD",
+        "name": "物品栏",
+        "description": "",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H02U",
+    "rawcode": 1211118165,
+    "name": "小小骷髅",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNSkeletonMage.blp",
+    "icon_source": "Art",
+    "description": ",",
+    "skills": [
+      {
+        "id": "A0L2",
+        "name": "英被-打散重组",
+        "description": "小小骷髅死亡后会很快在原地复活，但是每次复活会三围-1\n小小骷髅每杀死1个木乃伊骷髅有小概率三围+1",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H02Y",
+    "rawcode": 1211118169,
+    "name": "狗遛人",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNWolf.blp",
+    "icon_source": "Art",
+    "description": "不会攻击的英雄\n耐力成长：10\n敏捷成长：10\n力量成长：10\n天赋：怜悯",
+    "skills": [
+      {
+        "id": "A0L9",
+        "name": "英被-我是主人",
+        "description": "我是主人，我要带着他出来遛弯散步\n狗狗不会攻击，人会帮他搞定一切，人攻击可以触发武器特效\n人的攻击与狗狗的三围挂钩",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O019",
+    "rawcode": 1328558393,
+    "name": "自己人",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNHeroFarseer.blp",
+    "icon_source": "Art",
+    "description": "一种神秘的英雄，特别擅长于远程攻击和侦察。能学习到闪电链，透视，野兽幽魂和地震这四种技能。\n\n能攻击地面单位和空中单位。",
+    "skills": [
+      {
+        "id": "A0LA",
+        "name": "英被-不分敌我光环",
+        "description": "能增加周围单位的移动速度和攻击速度。\n\n等级 1 - 提高10%的移动速度和5%的攻击速度。\n等级 2 - 提高20%的移动速度和10%的攻击速度。\n等级 3 - 提高30%的移动速度和15%的攻击速度。",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "U00Y",
+    "rawcode": 1429221465,
+    "name": "阿克萌德",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNArchimonde.blp",
+    "icon_source": "Art",
+    "description": ",",
+    "skills": [
+      {
+        "id": "A0LB",
+        "name": "英被-随机死亡一指",
+        "description": "阿克萌德随时随机对周围1000码内任何一个敌人或者友军释放死亡一指，直接秒杀\n对Boss造成最大生命值百分比伤害",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H036",
+    "rawcode": 1211118390,
+    "name": "抄山模借",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNChimaera.blp",
+    "icon_source": "Art",
+    "description": "远程英雄\n耐力成长：4\n敏捷成长：13\n力量成长：12\n天赋：炎爆",
+    "skills": [
+      {
+        "id": "A0M8",
+        "name": "英被-照葫芦画瓢",
+        "description": "话不多说，祝愿所有模仿梦迹沙河2的友商图生意兴隆！\n队友每次学习技能书都有30%几率给你复制一本同样的技能书\n队友每次购买黄金魔袋都有30%几率给你复制一个同样的黄金魔袋\n反正都要靠队友衬托！毫无自己的原创能力！",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H035",
+    "rawcode": 1211118389,
+    "name": "标杆",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNObsidianStatue.blp",
+    "icon_source": "Art",
+    "description": "远程英雄\n耐力成长：4\n敏捷成长：13\n力量成长：12\n天赋：炎爆",
+    "skills": [
+      {
+        "id": "A0KU",
+        "name": "英被-同行标杆",
+        "description": "标杆就是同行的一个目标和标准，所有竞争者都以超过标杆作为目标，尽管标杆并不想成为所谓的标杆\n标杆每次升级时，若英雄等级高于其他队友，每高于1个队友，标杆三围+5\n队友每次升级时，若英雄等级高于标杆，则队友三围+4",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H037",
+    "rawcode": 1211118391,
+    "name": "防守格子图",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNrabbit.blp",
+    "icon_source": "Art",
+    "description": "战士型英雄，特别擅长于冲锋陷阵。能学习到风暴之锤、雷霆一击、重击和天神下凡。\n\n能攻击地面单位。",
+    "skills": [
+      {
+        "id": "A0M9",
+        "name": "英被-刷属性",
+        "description": "每次攻击和被攻击都有几率随机让力量、敏捷或耐力+1\n但是天生拥有较慢的攻击速度和回魔速度，法力值上限也较低，护甲也非常低",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H038",
+    "rawcode": 1211118392,
+    "name": "博学者",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNDruidOfTheClaw.blp",
+    "icon_source": "Art",
+    "description": "远程英雄，？？？？可使用\n耐力成长：33至43\n敏捷成长：45至94\n力量成长：37至47\n天赋：攻击有几率召唤一个镜像",
+    "skills": [
+      {
+        "id": "A0MA",
+        "name": "英被-抛砖引玉",
+        "description": "使用技能书时，有概率使学到的技能品质+1\n学D有60%变C\n学C有40%变B\n学B有20%变A\n学A有15%变S",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O01F",
+    "rawcode": 1328558406,
+    "name": "铁盾",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNHumanArmorUpOne.blp",
+    "icon_source": "Art",
+    "description": "近战英雄\n耐力成长：20\n敏捷成长：4\n力量成长：8\n天赋：铁甲反伤",
+    "skills": [
+      {
+        "id": "A0MK",
+        "name": "英被-攻守兼备",
+        "description": "铁盾每次升级都会永久护甲+2，增伤+4%",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H039",
+    "rawcode": 1211118393,
+    "name": "世界萨",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNShaman.blp",
+    "icon_source": "Art",
+    "description": "战士型英雄，特别擅长于保护自己周围的部队，能学习到神圣之光，神圣护甲，专注光环和复活这四项技能。\n\n能攻击地面单位。",
+    "skills": [
+      {
+        "id": "A0MJ",
+        "name": "英被-元素掌控",
+        "description": "熊猫酒仙分身成3元素形体，制造出3个特殊的战士。他们中任何一个在召唤时限内还活着，熊猫酒仙就会再生。",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H03A",
+    "rawcode": 1211118401,
+    "name": "小轩",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNDryad.blp",
+    "icon_source": "Art",
+    "description": "远程英雄，？？？？可使用\n耐力成长：33至43\n敏捷成长：45至94\n力量成长：37至47\n天赋：攻击有几率召唤一个镜像",
+    "skills": [
+      {
+        "id": "A0ML",
+        "name": "英被-在不在",
+        "description": "骚猪会随机时间在游戏中询问小轩在不在\n任意玩家回答“在”，则小轩攻击间隔永久减少10%\n任意玩家回答“不在”，则小轩基础攻击力永久提高10%",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H03B",
+    "rawcode": 1211118402,
+    "name": "我很聪明",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNAcolyte.blp",
+    "icon_source": "Art",
+    "description": "远程英雄\n耐力成长：5\n敏捷成长：7\n力量成长：12\n天赋：血色冥想",
+    "skills": [
+      {
+        "id": "A0MM",
+        "name": "英被-术士大师召唤术",
+        "description": "立刻随机召唤???个Boss！！！",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H03E",
+    "rawcode": 1211118405,
+    "name": "恶作剧女巫",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNSorceress.blp",
+    "icon_source": "Art",
+    "description": "远程英雄\n耐力成长：5\n敏捷成长：7\n力量成长：12\n天赋：血色冥想",
+    "skills": [
+      {
+        "id": "A0MP",
+        "name": "英被-恶作剧",
+        "description": "不分敌我地将地图上随机【等级x2】个单位变成绵羊，持续60秒（对英雄12秒）\n被变羊的队友英雄每秒可获得【恶作剧女巫等级x1】三围",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H03G",
+    "rawcode": 1211118407,
+    "name": "无尽药水大佬",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNpotion3.blp",
+    "icon_source": "Art",
+    "description": "远程英雄，？？？？可使用\n耐力成长：20至30\n敏捷成长：28至60\n力量成长：22至32\n天赋：攻击有几率召唤一个复制镜像出来",
+    "skills": [
+      {
+        "id": "A0N5",
+        "name": "英被-嗑药",
+        "description": "每次攻击都可以使无尽药水杀敌数+1\n每次使用无尽药水都可以使最大生命值和最大法力值提高20%，持续20秒",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H03I",
+    "rawcode": 1211118409,
+    "name": "丘比特",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNArcher.blp",
+    "icon_source": "Art",
+    "description": "远程英雄，起始默认获得\n耐力成长：5至15\n敏捷成长：8至20\n力量成长：5至15\n天赋：杀怪获得额外10金钱",
+    "skills": [
+      {
+        "id": "A0ND",
+        "name": "英被-一箭倾心",
+        "description": "永久绑定1个队友英雄：\n该英雄升级时，丘比特也会提高队友英雄升级获得的50%三围\n该英雄死亡时，丘比特永久降低【目标英雄等级】的三围\n\n每个队友英雄只能绑定1次，最多绑定3个",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H03K",
+    "rawcode": 1211118411,
+    "name": "德库拉伯爵",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNtouxiang11.blp",
+    "icon_source": "Art",
+    "description": "远程英雄，起始默认获得\n耐力成长：5至15\n敏捷成长：8至20\n力量成长：5至15\n天赋：杀怪获得额外10金钱",
+    "skills": [
+      {
+        "id": "A0NH",
+        "name": "英被-始祖吸血鬼",
+        "description": "德库拉伯爵造成的所有伤害都可以吸血20%\n包括物理伤害和魔法伤害",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H03L",
+    "rawcode": 1211118412,
+    "name": "均富卡",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNBTN0128.blp",
+    "icon_source": "Art",
+    "description": "远程英雄，？？？？可使用\n耐力成长：20至30\n敏捷成长：28至60\n力量成长：22至32\n天赋：攻击有几率召唤一个复制镜像出来",
+    "skills": [
+      {
+        "id": "A0NI",
+        "name": "英被-均富",
+        "description": "每隔20秒，将自己的所有金钱平均分给在场所有玩家（包括自己）\n单人游戏时无效",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H03J",
+    "rawcode": 1211118410,
+    "name": "抗疫大使",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNDragonHawk.blp",
+    "icon_source": "Art",
+    "description": ",",
+    "skills": [
+      {
+        "id": "A0NG",
+        "name": "英被-妙手回春",
+        "description": "每隔6秒，全地图所有玩家英雄恢复15%生命值和10点法力值",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O01H",
+    "rawcode": 1328558408,
+    "name": "无限晕",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNStormBolt.blp",
+    "icon_source": "Art",
+    "description": "一种灵活的英雄，特别擅长于一对一。能学习到镜像、疾步风、致命一击和剑刃风暴这四种技能。\n\n能攻击地面单位。",
+    "skills": [
+      {
+        "id": "A0NF",
+        "name": "英被-无限晕",
+        "description": "每次攻击必然可以击晕敌人1秒，Boss只有0.2秒",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O01G",
+    "rawcode": 1328558407,
+    "name": "梦迹沙河3",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNBTN0117.blp",
+    "icon_source": "Art",
+    "description": "？？英雄，？？？可使用\n耐力成长：??至??\n敏捷成长：??至??\n力量成长：??至??\n天赋：？？？？",
+    "skills": [
+      {
+        "id": "A0NJ",
+        "name": "英被-即将发布",
+        "description": "梦迹沙河3天生拥有比其他英雄更高的三围和成长，拥有更高的生命值、法力值以及更快的攻击速度和移动速度\n\n为了尽快玩到【梦迹沙河3】，所以【梦迹沙河2】的游戏时间被大大加快了，每分钟都小概率使倒计时立刻减少60秒\n在特定模式下无效",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O01I",
+    "rawcode": 1328558409,
+    "name": "奇丑干部",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNSeaGiant.blp",
+    "icon_source": "Art",
+    "description": "一种灵活的英雄，特别擅长于一对一。能学习到镜像、疾步风、致命一击和剑刃风暴这四种技能。\n\n能攻击地面单位。",
+    "skills": [
+      {
+        "id": "A0NE",
+        "name": "英被-哇，好丑",
+        "description": "长相太丑，周围500码内所有敌人攻击力下降100%",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H03M",
+    "rawcode": 1211118413,
+    "name": "马保国",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNVillagerMan1.blp",
+    "icon_source": "Art",
+    "description": "战士型英雄，特别擅长于保护自己周围的部队，能学习到神圣之光，神圣护甲，专注光环和复活这四项技能。\n\n能攻击地面单位。",
+    "skills": [
+      {
+        "id": "Alit",
+        "name": "闪电攻击",
+        "description": "",
+        "text_resolved": true
+      },
+      {
+        "id": "A0O5",
+        "name": "英被-闪电鞭",
+        "description": "马保国每次攻击都有几率触发三连鞭或者五连鞭，每道闪电鞭造成【三围x2】点魔法伤害",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "H03N",
+    "rawcode": 1211118414,
+    "name": "名媛",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNBanshee.blp",
+    "icon_source": "Art",
+    "description": "远程英雄，？？？？可使用\n耐力成长：33至43\n敏捷成长：45至94\n力量成长：37至47\n天赋：攻击有几率召唤一个镜像",
+    "skills": [
+      {
+        "id": "A0O6",
+        "name": "英被-拼单",
+        "description": "每次购买技能书都会和队友一起拼单，购买成功后所有队友平均分担花费金额并返还给名媛，同时队友三围提高5+(拼单金额/2000)点",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  },
+  {
+    "id": "O01J",
+    "rawcode": 1328558410,
+    "name": "牛气",
+    "icon": "ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp",
+    "icon_source": "Art",
+    "description": "近战英雄\n耐力成长：18\n敏捷成长：5\n力量成长：15\n天赋：新生强壮",
+    "skills": [
+      {
+        "id": "A0O9",
+        "name": "英被-牛气冲天",
+        "description": "每次牛气升级时，都会永久增加【当前耐力x0.2】的力量",
+        "text_resolved": true
+      },
+      {
+        "id": "A00W",
+        "name": "英雄-传送权杖",
+        "description": "可以让英雄立刻传送到任何友军身边",
+        "text_resolved": true
+      }
+    ],
+    "runtime_validated": false
+  }
+]

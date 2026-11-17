@@ -1,0 +1,7 @@
+Frame "TEXT" "MJ5Text" {
+    FrameFont "fonts.ttf", 0.009, "",
+    FontColor 1.0 1.0 1.0 1.0,
+    FontJustificationH JUSTIFYLEFT,
+    FontJustificationV JUSTIFYTOP,
+    Text "",
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "path": "vendor/stormlib/x64/StormLib.dll",
+    "sha256": "93321f6f030be5d7d79eb4cbf433d6ef7e83ce20d47d8963717f207d54afbe16",
+    "source": "stormlib_dll.zip member"
+  },
+  {
+    "path": "vendor/pjass.exe",
+    "sha256": "45911ae998b23155c8d408597c616cf080a3fa16b4cf2e1bacb239757c704d5c",
+    "source": "https://github.com/lep/pjass/releases/download/release-2026-10-13/pjass.exe"
+  },
+  {
+    "path": "vendor/jass-1.27.1/common.j",
+    "sha256": "8357c64cb94b7a6fc2fb7b7e7846eb6e2e884828f6b4df4d685bcc5c2a7a5e05",
+    "source": "https://github.com/sumneko/w3x2lni/blob/master/data/enUS-1.27.1/mpq/Scripts/Common.j"
+  },
+  {
+    "path": "vendor/jass-1.27.1/Blizzard.j",
+    "sha256": "2940674ddd5d9dbaf84df2490b609d3d606c66db6c70fbf11a7940d4209ddfed",
+    "source": "https://github.com/sumneko/w3x2lni/blob/master/data/enUS-1.27.1/mpq/Scripts/Blizzard.j"
+  },
+  {
+    "path": "vendor/mpyq.py",
+    "sha256": "e10fa2f422d837345f438934a99a3cdf67fa9148c7106d421408e1ecfa83e239",
+    "source": "https://github.com/eagleflo/mpyq"
+  },
+  {
+    "path": "vendor/pwexplode.py",
+    "sha256": "cf394c35adf5b35b9b939c229094a4d4d5af003e95786c0c089a3683795411ed",
+    "source": "https://github.com/Schallaven/pwexplode"
+  },
+  {
+    "path": "vendor/JapiNative.j",
+    "sha256": "0c9106797903b7d3b29cb0929a0d2e2d5863767ae3b73e0da639afd681651105",
+    "source": "https://github.com/yefq/JapiNative/blob/master/JapiNative.j"
+  }
+]

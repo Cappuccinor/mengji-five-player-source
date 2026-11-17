@@ -1,0 +1,7 @@
+inputs/original.w3x binary
+vendor/** -text
+*.py text eol=lf
+*.j text eol=lf
+*.md text eol=lf
+*.fdf text eol=lf
+*.toc text eol=lf

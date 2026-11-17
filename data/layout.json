@@ -1,0 +1,79 @@
+{
+  "stage": "geometry and lobby only; gameplay not integrated",
+  "human_slots": [
+    0,
+    1,
+    2,
+    3,
+    5
+  ],
+  "enemy_slots": [
+    8,
+    9,
+    10,
+    11,
+    6
+  ],
+  "original_world_origin": [
+    -4096,
+    -4096
+  ],
+  "terrain_cells": [
+    96,
+    64
+  ],
+  "playable_cells": [
+    80,
+    48
+  ],
+  "fifth_translation": [
+    4096,
+    0
+  ],
+  "fifth_spawn": [
+    6784,
+    2688
+  ],
+  "fifth_hero_normal": [
+    4992,
+    896
+  ],
+  "fifth_hero_separated": [
+    5760,
+    1664
+  ],
+  "fifth_battle_rect": [
+    5120,
+    1024,
+    7232,
+    3136
+  ],
+  "patches": [
+    {
+      "function": "BUM",
+      "original_sha256": "64079c70adb7a8a72abba5afb3a075c75b6124f167fe5e707a010f48743dbd9a",
+      "replacement_sha256": "4ffb183f3c8cb3d9ad24305a48498959fd5a5de2b054212ccb144ae54ee58b03"
+    },
+    {
+      "function": "BUN",
+      "original_sha256": "87971b0be7c9818bfc7d7531201c92bbeec26aa45a5a8e1c44607d75ed3a0ec9",
+      "replacement_sha256": "9839c15c755294228b0042888329bfc504b150f6b5f3493cefaa6ba04708bb7e"
+    },
+    {
+      "function": "BUO",
+      "original_sha256": "7bc01b94dc9ff011cee9da2955cfbf233c786a6fee54ee2091f629ce54de239e",
+      "replacement_sha256": "ab4f5d3427db5dc48764c8c55199df34097f7d1a558362ecda3761def84b7f90"
+    },
+    {
+      "function": "config",
+      "original_sha256": "4f88a4f06d8aaaa42a2e6c7b37f1574e8eeb5a9ab32b6fe0133e51e976d45b09",
+      "replacement_sha256": "8897abbe4a77886f709cd4fe06a1ee0946ab0f30f5768e026246c7b90c386067"
+    },
+    {
+      "function": "main",
+      "original_sha256": "e4c1fd1908e7ff705ec60031486849f357dc9c085dd159c77c081f599f6fba18",
+      "replacement_sha256": "9434af7b5ab51a0960cf3f21fa2e138007f1ed08bd744200ba5b06e9dd5f5f91"
+    }
+  ],
+  "runtime_verified": false
+}
